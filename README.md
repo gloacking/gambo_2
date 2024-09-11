@@ -16,8 +16,11 @@ Gambo 2 is a roguelike video game, which was developed in Python using Pygame_To
 ## Screenshots
 
 ![main menu](Screenshots/main_menu.png)
+
 ![character selection](Screenshots/character_selection.png)
+
 ![difficulty selection](Screenshots/difficulty_selection.png)
+
 ![main game](Screenshots/main_game.png)
 
 ---
