@@ -24,7 +24,5 @@ if (__name__ == "__main__"):
 		background = Scrolling_Background
 	)
 
-# Terminar las preguntas de Entretenimiento.
-
 # Command to create excutable file
 # pyinstaller --name "Gambo 2" --icon "Assets/GUI/icon.ico" --onefile --add-data "Assets:Assets" --add-data "Storage:Storage" --add-data "game_config.json:." --hidden-import="pygame_tool_kit" "Code/main.py"

@@ -243,7 +243,7 @@ class Game (Scene):
 			answers : tuple[int] = tuple (sample (range (4), 4))
 
 			for i, answer_button in enumerate (self.answer_buttons):
-				answer_button.set_text (QUESTIONS[self.difficulty][self.game_topic][question].answers[answers[i]] if (answers[i] != 0) else (QUESTIONS[self.difficulty][self.game_topic][question].answers[answers[i]] + " C"))
+				answer_button.set_text (QUESTIONS[self.difficulty][self.game_topic][question].answers[answers[i]])
 				if (answers[i] == 0):
 					answer_button.set_commands (self.guess)
 
