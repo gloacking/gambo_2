@@ -1,0 +1,15 @@
+{
+	"font_path": "Assets/Font/Gloack_Font.ttf",
+	"assets_path": "Assets/GUI/",
+	"icon_path": "Assets/GUI/icon.ico",
+	"storage_path": "Storage/",
+	"game_title": "GAMBO 2",
+	"resolutions": [
+		[384, 216],
+		[768, 432],
+		[1152, 648],
+		[1536, 864],
+		[1920, 1080]
+	],
+	"init_scale": 1
+}

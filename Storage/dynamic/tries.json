@@ -1,0 +1,88 @@
+{
+    "tries": [
+        {
+            "topic": 8,
+            "character": 0,
+            "difficulty": 1,
+            "max_streak": 31,
+            "score": 110
+        },
+        {
+            "topic": 12,
+            "character": 1,
+            "difficulty": 0,
+            "max_streak": 55,
+            "score": 55
+        },
+        {
+            "topic": 12,
+            "character": 3,
+            "difficulty": 0,
+            "max_streak": 32,
+            "score": 35
+        },
+        {
+            "topic": 12,
+            "character": 4,
+            "difficulty": 0,
+            "max_streak": 20,
+            "score": 21
+        },
+        {
+            "topic": 11,
+            "character": 0,
+            "difficulty": 0,
+            "max_streak": 20,
+            "score": 20
+        },
+        {
+            "topic": 8,
+            "character": 0,
+            "difficulty": 0,
+            "max_streak": 14,
+            "score": 16
+        },
+        {
+            "topic": 12,
+            "character": 2,
+            "difficulty": 0,
+            "max_streak": 4,
+            "score": 6
+        },
+        {
+            "topic": 0,
+            "character": 0,
+            "difficulty": 0,
+            "max_streak": 2,
+            "score": 4
+        },
+        {
+            "topic": 12,
+            "character": 2,
+            "difficulty": 0,
+            "max_streak": 2,
+            "score": 2
+        },
+        {
+            "topic": 12,
+            "character": 4,
+            "difficulty": 0,
+            "max_streak": 1,
+            "score": 1
+        },
+        {
+            "topic": 11,
+            "character": 0,
+            "difficulty": 0,
+            "max_streak": 1,
+            "score": 1
+        },
+        {
+            "topic": 12,
+            "character": 4,
+            "difficulty": 0,
+            "max_streak": 0,
+            "score": 0
+        }
+    ]
+}

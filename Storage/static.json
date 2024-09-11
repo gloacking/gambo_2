@@ -1,0 +1,3124 @@
+{
+	"topics" : [
+		"Arte",
+		"Deporte",
+		"Filosofia",
+		"Geografia",
+		"Ciencia",
+		"Medicina",
+		"Economia",
+		"Tecnologia",
+		"Matematica",
+		"Arquitectura",
+		"Historia",
+		"Entretenimiento"
+	],
+	"characters" : [
+		[
+			{
+				"name" : "Leonardo da Vinci",
+				"description" : "Polímata del Renacimiento, maestro en pintura, escultura, ingeniería y anatomía, famoso por la Mona Lisa.",
+				"probabilities" : [30, 2, 15, 7, 2, 3, 3, 1, 5, 7, 15, 10]
+			},
+			{
+				"name" : "William Shakespeare",
+				"description" : "Dramaturgo y poeta inglés, autor de obras icónicas como 'Hamlet' y 'Romeo y Julieta'.",
+				"probabilities" : [30, 7, 10, 15, 2, 3, 3, 1, 5, 2, 15, 7]
+			},
+			{
+				"name" : "Michelangelo Buonarroti",
+				"description" : "Escultor y pintor renacentista, creador del 'David' y los frescos de la Capilla Sixtina.",
+				"probabilities" : [30, 2, 15, 10, 7, 3, 3, 1, 5, 7, 15, 2]
+			},
+			{
+				"name" : "Miguel de Cervantes",
+				"description" : "Novelista español, autor de 'Don Quijote de la Mancha', considerada la primera novela moderna.",
+				"probabilities" : [30, 3, 15, 2, 7, 5, 3, 1, 15, 7, 10, 2]
+			},
+			{
+				"name" : "Ludwig van Beethoven",
+				"description" : "Compositor alemán, figura central de la música clásica, conocido por sus nueve sinfonías.",
+				"probabilities" : [30, 2, 7, 15, 2, 10, 3, 1, 5, 15, 7, 3]
+			}
+		],
+		[
+			{
+				"name": "Muhammad Ali",
+				"description": "Considerado uno de los mejores boxeadores de todos los tiempos, Muhammad Ali es conocido por su agilidad, velocidad y carisma, dentro y fuera del ring. Fue un símbolo de resistencia y de lucha por los derechos civiles.",
+				"probabilities": [2, 30, 5, 7, 2, 3, 15, 1, 15, 7, 3, 10]
+			},
+			{
+				"name": "Diego Maradona",
+				"description": "Diego Maradona fue un legendario futbolista argentino, famoso por su increíble habilidad con el balón y su capacidad para cambiar el curso de un partido. Conocido por la 'Mano de Dios' y su liderazgo en la victoria de Argentina en el Mundial de 1986.",
+				"probabilities": [2, 30, 7, 10, 15, 5, 3, 1, 15, 3, 2, 7]
+			}
+		],
+		[
+			{
+				"name": "Nicolás Maquiavelo",
+				"description": "Maquiavelo fue un filósofo y político italiano, considerado el padre de la ciencia política moderna. Su obra más conocida, 'El Príncipe', explora el poder y la gobernanza con un enfoque pragmático y a veces controvertido.",
+				"probabilities": [2, 7, 30, 5, 15, 2, 3, 1, 3, 10, 15, 7]
+			},
+			{
+				"name": "Platón",
+				"description": "Platón fue un filósofo griego, alumno de Sócrates y maestro de Aristóteles. Sus diálogos han sido fundamentales en la historia del pensamiento occidental, especialmente en temas como la ética, la política y la teoría del conocimiento.",
+				"probabilities": [2, 10, 30, 7, 3, 15, 2, 1, 3, 15, 7, 5]
+			},
+			{
+				"name": "Aristóteles",
+				"description": "Discípulo de Platón y maestro de Alejandro Magno, Aristóteles fue un filósofo griego cuyas ideas han influido en casi todas las áreas del conocimiento humano, desde la lógica hasta la ética, pasando por la ciencia y la política.",
+				"probabilities": [2, 5, 30, 15, 7, 10, 2, 1, 15, 3, 7, 3]
+			},
+			{
+				"name": "Immanuel Kant",
+				"description": "Kant fue un filósofo alemán cuya obra crítica, especialmente la 'Crítica de la razón pura', cambió la forma en que pensamos sobre la epistemología, la ética y la metafísica. Es uno de los pensadores más influyentes de la filosofía moderna.",
+				"probabilities": [7, 2, 30, 10, 3, 5, 1, 15, 3, 15, 7, 2]
+			},
+			{
+				"name": "Friedrich Nietzsche",
+				"description": "Nietzsche fue un filósofo alemán conocido por sus críticas a la moral tradicional, su concepto del 'superhombre' y su declaración de la 'muerte de Dios'. Su obra ha sido fundamental para el existencialismo y la filosofía contemporánea.",
+				"probabilities": [5, 7, 30, 3, 10, 2, 15, 1, 2, 15, 3, 7]
+			}
+		],
+		[
+			{
+				"name": "Eratóstenes",
+				"description": "Eratóstenes fue un matemático, astrónomo y geógrafo griego, conocido por haber calculado con notable precisión la circunferencia de la Tierra. También fue el primer científico en utilizar el término 'geografía'.",
+				"probabilities": [7, 3, 2, 30, 15, 10, 2, 1, 15, 5, 3, 7]
+			},
+			{
+				"name": "Américo Vespucio",
+				"description": "Américo Vespucio fue un navegante y explorador italiano, cuyo nombre dio lugar al término 'América'. Sus viajes al Nuevo Mundo ayudaron a demostrar que las tierras descubiertas por Colón no eran parte de Asia, sino un nuevo continente.",
+				"probabilities": [10, 5, 3, 30, 15, 2, 7, 1, 2, 3, 7, 15]
+			},
+			{
+				"name": "Ferdinand Magellan",
+				"description": "Magallanes fue un explorador portugués conocido por liderar la primera expedición que circunnavegó el globo. Aunque murió durante el viaje, su expedición demostró definitivamente que la Tierra es redonda.",
+				"probabilities": [5, 7, 15, 30, 2, 3, 10, 1, 2, 15, 7, 3]
+			}
+		],
+		[
+			{
+				"name": "Albert Einstein",
+				"description": "Einstein fue un físico teórico alemán, conocido por su teoría de la relatividad, que revolucionó la física moderna. Su ecuación E=mc² es una de las fórmulas más famosas del mundo.",
+				"probabilities": [7, 2, 15, 3, 30, 5, 10, 1, 2, 15, 3, 7]
+			},
+			{
+				"name": "Isaac Newton",
+				"description": "Newton fue un físico y matemático inglés, uno de los científicos más influyentes de la historia. Sus leyes del movimiento y la gravitación universal sentaron las bases de la física clásica.",
+				"probabilities": [3, 15, 7, 5, 30, 2, 10, 1, 2, 3, 15, 7]
+			},
+			{
+				"name": "Charles Darwin",
+				"description": "Darwin fue un naturalista inglés, célebre por su teoría de la evolución por selección natural, expuesta en su obra 'El origen de las especies', que transformó nuestra comprensión de la vida en la Tierra.",
+				"probabilities": [5, 2, 15, 10, 30, 7, 3, 1, 2, 3, 15, 7]
+			},
+			{
+				"name": "Michael Faraday",
+				"description": "Faraday fue un físico y químico británico, conocido por sus descubrimientos en electromagnetismo y electroquímica, incluyendo la inducción electromagnética y las leyes de la electrólisis.",
+				"probabilities": [2, 3, 7, 10, 30, 15, 1, 15, 2, 7, 3, 5]
+			},
+			{
+				"name": "Galileo Galilei",
+				"description": "Galileo fue un astrónomo, físico e ingeniero italiano, considerado el padre de la ciencia moderna. Su uso del telescopio para estudiar los cielos revolucionó la astronomía, y sus descubrimientos respaldaron la teoría heliocéntrica.",
+				"probabilities": [2, 3, 10, 15, 30, 5, 7, 1, 15, 7, 2, 3]
+			}
+		],
+		[
+			{
+				"name": "René Favaloro",
+				"description": "Favaloro fue un médico argentino, pionero de la cirugía cardiovascular. Es conocido mundialmente por haber desarrollado el bypass coronario, una técnica que ha salvado innumerables vidas.",
+				"probabilities": [3, 15, 7, 2, 5, 30, 15, 1, 2, 10, 3, 7]
+			},
+			{
+				"name": "Louis Pasteur",
+				"description": "Pasteur fue un químico y microbiólogo francés, conocido por sus descubrimientos sobre la vacunación, la fermentación microbiana y la pasteurización. Su trabajo ha sido fundamental para la medicina moderna.",
+				"probabilities": [3, 7, 15, 2, 5, 30, 10, 1, 15, 15, 2, 7]
+			}
+		],
+		[
+			{
+				"name": "Adam Smith",
+				"description": "Smith fue un economista y filósofo escocés, considerado el padre de la economía moderna. Su obra 'La riqueza de las naciones' es un pilar en la teoría del libre mercado y el capitalismo.",
+				"probabilities": [3, 7, 15, 10, 2, 15, 30, 1, 2, 5, 7, 3]
+			},
+			{
+				"name": "Milton Friedman",
+				"description": "Friedman fue un economista estadounidense, líder de la escuela de Chicago y defensor del libre mercado. Su trabajo sobre la teoría monetaria y su crítica al keynesianismo han sido influyentes en la política económica del siglo XX.",
+				"probabilities": [7, 3, 2, 5, 10, 15, 30, 1, 2, 7, 3, 15]
+			},
+			{
+				"name": "Murray Rothbard",
+				"description": "Rothbard fue un economista estadounidense, una de las principales figuras de la escuela austriaca de economía. Es conocido por su defensa del anarcocapitalismo y su crítica al estado intervencionista.",
+				"probabilities": [2, 7, 3, 5, 10, 15, 30, 1, 2, 3, 15, 7]
+			}
+		],
+		[
+			{
+				"name": "John von Neumann",
+				"description": "Von Neumann fue un matemático y físico húngaro-estadounidense, cuyas contribuciones abarcan la teoría de juegos, la computación y la física cuántica. Su arquitectura de von Neumann es la base de las computadoras modernas.",
+				"probabilities": [3, 7, 15, 2, 10, 15, 2, 30, 1, 5, 3, 7]
+			},
+			{
+				"name": "Alan Turing",
+				"description": "Turing fue un matemático y criptógrafo británico, considerado el padre de la informática. Su trabajo en la descodificación de la máquina Enigma y sus contribuciones teóricas sentaron las bases de la inteligencia artificial.",
+				"probabilities": [3, 5, 2, 7, 15, 15, 10, 30, 1, 2, 3, 7]
+			},
+			{
+				"name": "Dennis Ritchie",
+				"description": "Ritchie fue un científico de la computación estadounidense, creador del lenguaje de programación C y co-desarrollador del sistema operativo Unix, dos pilares fundamentales de la informática moderna.",
+				"probabilities": [2, 3, 5, 7, 15, 2, 10, 30, 1, 3, 7, 15]
+			}
+		],
+		[
+			{
+				"name": "Leonhard Euler",
+				"description": "Matemático suizo cuyo trabajo en teoría de grafos, topología, cálculo y mecánica ha dejado una huella indeleble en la historia de las matemáticas. Es célebre por introducir la notación \"e\" para la base de los logaritmos naturales, y por desarrollar fórmulas y teoremas que siguen siendo fundamentales hoy en día.",
+				"probabilities": [2, 2, 7, 3, 10, 3, 5, 1, 30, 15, 7, 15]
+			},
+			{
+				"name": "Carl Gauss",
+				"description": "Conocido como el \"Príncipe de los Matemáticos\", fue un genio alemán que revolucionó la teoría de números, la geometría diferencial, y la estadística. Su obra \"Disquisitiones Arithmeticae\" sentó las bases para la matemática moderna, y su impacto se extiende a campos como la astronomía y la física.",
+				"probabilities": [2, 3, 15, 7, 15, 3, 10, 1, 30, 7, 5, 2]
+			},
+			{
+				"name": "Euclides",
+				"description": "A menudo conocido como el \"Padre de la Geometría\", fue un matemático griego cuyo tratado \"Los Elementos\" es uno de los textos más importantes en la historia de la matemática. Su enfoque axiomático y su rigurosa exposición de la geometría plana y espacial han sido fundamentales en la enseñanza y el desarrollo de la matemática a lo largo de los siglos.",
+				"probabilities": [3, 2, 15, 7, 10, 3, 15, 1, 30, 7, 2, 5]
+			}
+		],
+		[
+			{
+				"name": "Gustave Eiffel",
+				"description": "Fue un ingeniero y arquitecto francés conocido por diseñar y construir la icónica Torre Eiffel en París. Su trabajo se caracteriza por el uso innovador del hierro, que revolucionó la ingeniería estructural y dejó un legado perdurable en la arquitectura moderna.",
+				"probabilities": [2, 2, 7, 3, 10, 3, 5, 1, 15, 30, 15, 7]
+			}
+		],
+		[
+			{
+				"name": "Heródoto",
+				"description": "Heródoto, conocido como el 'Padre de la Historia', fue un historiador griego que documentó los eventos de su tiempo en una obra monumental llamada 'Historias'. Su enfoque en la investigación y la recopilación de datos estableció las bases para la historia como disciplina académica.",
+				"probabilities": [2, 2, 7, 15, 15, 3, 10, 1, 5, 7, 30, 3]
+			}
+		],
+		[
+			{
+				"name": "Charlie Chaplin",
+				"description": "Charlie Chaplin fue un actor, director y productor británico, conocido por ser uno de los pioneros del cine mudo. Con su personaje icónico 'Charlot', Chaplin combinó la comedia física con la crítica social, creando películas que aún hoy son consideradas obras maestras del cine.",
+				"probabilities": [15, 2, 7, 5, 10, 3, 3, 1, 15, 7, 2, 30]
+			}
+		],
+		[
+			{
+				"name" : "Pedro \"El Optimista\"",
+				"description" : "Siempre cree que está a punto de ganar, aunque nunca ha pasado del primer nivel. Su especialidad es el optimismo inquebrantable, y su frase favorita es: \"¡Esta vez sí lo logro!\".",
+				"probabilities" : [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+			},
+			{
+				"name" : "Carlos \"Conocedor\"",
+				"description" : "Licenciado en casi todo. Sabe un poco de todo, pero no lo suficiente como para destacar en nada. Siempre tiene un dato curioso irrelevante que soltar, aunque nunca ayuda en el juego.",
+				"probabilities" : [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+			},
+			{
+				"name" : "María \"La Precavida\"",
+				"description" : "Analiza cada movimiento como si el mundo dependiera de ello. Lamentablemente, su lentitud en la toma de decisiones la convierte en una maestra de las derrotas bien pensadas.",
+				"probabilities" : [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+			},
+			{
+				"name" : "Pepe \"Nunca Llega\"",
+				"description" : "Siempre está a punto de hacer algo genial... pero nunca lo consigue. Se le conoce por quedarse atascado en el mismo lugar durante horas, pero eso no le quita la sonrisa.",
+				"probabilities" : [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+			},
+			{
+				"name" : "Juan \"El Analizador\"",
+				"description" : "Se pasa más tiempo leyendo las instrucciones que jugando. Cuando finalmente empieza, ya es demasiado tarde, pero al menos lo hace siguiendo las reglas al pie de la letra.",
+				"probabilities" : [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+			}
+		]
+	],
+	"difficulties": [
+		{
+			"name": "Inculto",
+			"description": "\u00a1Emb\u00e1rcate en tu viaje de conocimiento con la dificultad Inculto! Este nivel introductorio te ofrece preguntas dise\u00f1adas para quienes est\u00e1n dando sus primeros pasos en la exploraci\u00f3n del saber. Aqui, son superadas las barreras iniciales del desconocimiento. Prep\u00e1rate para cuestionamientos accesibles que te permitiran dejar de ser inculto. \u00a1Este es solo el comienzo de tu viaje! \u00bfEst\u00e1s listo para la aventura?"
+		},
+		{
+			"name": "Novato",
+			"description": "\u00a1Inicia tu viaje en el conocimiento con la dificultad Novato! Este nivel es perfecto para aquellos que est\u00e1n dando sus primeros pasos en el mundo de las preguntas desafiantes. Enfrentando cuestionamientos accesibles, dise\u00f1ados para fomentar el aprendizaje y la consolidaci\u00f3n de conceptos b\u00e1sicos. Aqui, es premiado el esfuerzo y el deseo de aprender. \u00a1Adelante, novato, comienza tu traves\u00eda hacia la maestr\u00eda!"
+		},
+		{
+			"name": "Sagaz",
+			"description": "\u00a1Bienvenido al nivel Sagaz, donde la agudeza mental se convierte en tu mejor aliada! Este desaf\u00edo se sit\u00faa en el punto medio de la escala de dificultad, ofreciendo preguntas que exigen la capacidad de analizar, deducir y responder con astucia. Aqu\u00ed, sera premiada la capacidad de pensar con perspicacia ante situaciones intrigantes. Prep\u00e1rate para una experiencia donde la astucia y la sabidur\u00eda se entrelazan en cada pregunta. \u00bfEst\u00e1s listo para demostrar tu sagacidad?"
+		},
+		{
+			"name": "Ilustre",
+			"description": "\u00a1Has alcanzado la dificultad Ilustre, un desaf\u00edo magistral en el mundo del conocimiento! Aqu\u00ed, te sumergir\u00e1s en preguntas que van m\u00e1s all\u00e1 de lo ordinario y exploran las fronteras de la maestr\u00eda. Cada interrogante requiere la habilidad de discernir entre matices y aplicar la sabidur\u00eda de manera astuta. Prep\u00e1rate para demostrar tu nivel en esta categor\u00eda. \u00bfTe atrever\u00e1s a enfrentar este ilustre desaf\u00edo?"
+		},
+		{
+			"name": "Erudito",
+			"description": "\u00a1Prep\u00e1rate para el desaf\u00edo supremo del conocimiento! La dificultad Erudito est\u00e1 dise\u00f1ada para los maestros del saber y los buscadores de la verdad. Aqu\u00ed, cada pregunta requiere un dominio profundo de los temas m\u00e1s complejos y especializados. Los l\u00edmites de tu sabidur\u00eda ser\u00e1n puestos a prueba en cada esquina, exigiendo una mente aguda y una memoria prodigiosa. \u00a1Solo los verdaderos eruditos pueden conquistar esta haza\u00f1a intelectual! \u00bfEst\u00e1s listo para la prueba definitiva?"
+		}
+	],
+	"questions": [
+		[
+			[
+				{
+					"question": "¿Cuál de las siguientes obras pertenece al pintor español Diego Velázquez?",
+					"answers": [
+						"Las Meninas",
+						"La noche estrellada",
+						"Guernica",
+						"La última cena"
+					]
+				},
+				{
+					"question": "¿Qué corriente artística es conocida por su uso extremo del claroscuro y dramatismo, representada en obras como \"La Vocación de San Mateo\"?",
+					"answers": [
+						"Barroco",
+						"Impresionismo",
+						"Surrealismo",
+						"Cubismo"
+					]
+				},
+				{
+					"question": "¿Cuál es el principal instrumento en la música tradicional del Flamenco?",
+					"answers": [
+						"Guitarra",
+						"Cajón",
+						"Castañuelas",
+						"Piano"
+					]
+				},
+				{
+					"question": "¿Qué técnica musical utiliza un cantante de ópera para proyectar su voz sobre una orquesta sin micrófono?",
+					"answers": [
+						"Bel canto",
+						"Sprechgesang",
+						"Falsete",
+						"Scat"
+					]
+				},
+				{
+					"question": "¿Qué famosa obra literaria fue escrita por Gabriel García Márquez y es conocida por su estilo de realismo mágico?",
+					"answers": [
+						"Cien años de soledad",
+						"El otoño del patriarca",
+						"Crónica de una muerte anunciada",
+						"El amor en los tiempos del cólera"
+					]
+				}
+			],
+			[
+				{
+					"question": "En el tenis, ¿quién es conocido como \"El Rey de la Arcilla\" debido a su dominio en canchas de tierra batida?",
+					"answers": [
+						"Rafael Nadal",
+						"Novak Djokovic",
+						"Roger Federer",
+						"Andy Murray"
+					]
+				},
+				{
+					"question": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+					"answers": [
+						"1896",
+						"1900",
+						"1888",
+						"1912"
+					]
+				},
+				{
+					"question": "¿Qué equipo de la NBA tiene el récord de más títulos ganados en la historia de la liga?",
+					"answers": [
+						"Boston Celtics",
+						"Los Angeles Lakers",
+						"Chicago Bulls",
+						"Golden State Warriors"
+					]
+				},
+				{
+					"question": "¿Qué boxeador fue apodado \"The Greatest\" y es conocido por sus peleas icónicas en la década de 1970?",
+					"answers": [
+						"Muhammad Ali",
+						"Mike Tyson",
+						"George Foreman",
+						"Joe Frazier"
+					]
+				},
+				{
+					"question": "¿Cuál es el único país que ha ganado la Copa del Mundo de la FIFA tanto en la categoría masculina como en la femenina?",
+					"answers": [
+						"Alemania",
+						"Brasil",
+						"Italia",
+						"Argentina"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de los siguientes filósofos es conocido por su teoría en la que los individuos acuerdan obedecer al gobierno a cambio de protección y orden en la sociedad?",
+					"answers": [
+						"Jean-Jacques Rousseau",
+						"Friedrich Nietzsche",
+						"Immanuel Kant",
+						"Karl Marx"
+					]
+				},
+				{
+					"question": "¿Qué es el \"imperativo categórico\" en la ética de Kant?",
+					"answers": [
+						"Una regla moral que debe ser seguida universalmente, independiente de circunstancias o deseos.",
+						"Una ley moral que se aplica solo cuando coincide con los intereses individuales.",
+						"Un principio que sugiere actuar siempre en busca del mayor placer.",
+						"Una directriz ética que solo aplica en contextos específicos."
+					]
+				},
+				{
+					"question": "¿Qué teoría ética sostiene que la moralidad de una acción depende de sus consecuencias?",
+					"answers": [
+						"Utilitarismo",
+						"Deontología",
+						"Virtud ética",
+						"Contractualismo"
+					]
+				},
+				{
+					"question": "¿Qué concepto introdujo Karl Marx para describir la situación en la que los trabajadores no se sienten conectados con el producto de su trabajo?",
+					"answers": [
+						"Alienación",
+						"Reificación",
+						"Lucha de clases",
+						"Materialismo histórico"
+					]
+				},
+				{
+					"question": "¿Qué filósofo desarrolló la ética del utilitarismo, que sostiene que la mejor acción es la que maximiza la felicidad general?",
+					"answers": [
+						"Jeremy Bentham",
+						"John Stuart Mill",
+						"David Hume",
+						"Immanuel Kant"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es el país más grande del mundo por superficie terrestre?",
+					"answers": [
+						"Rusia",
+						"Canadá",
+						"China",
+						"Estados Unidos"
+					]
+				},
+				{
+					"question": "¿Qué río es el más largo del mundo?",
+					"answers": [
+						"Río Amazonas",
+						"Río Nilo",
+						"Río Yangtsé",
+						"Río Misisipi"
+					]
+				},
+				{
+					"question": "¿En qué país se encuentra el desierto de Atacama, uno de los lugares más áridos del planeta?",
+					"answers": [
+						"Chile",
+						"Perú",
+						"Argentina",
+						"Bolivia"
+					]
+				},
+				{
+					"question": "¿Cuál es el lago más profundo del mundo, ubicado en Rusia?",
+					"answers": [
+						"Lago Baikal",
+						"Lago Tanganica",
+						"Lago Superior",
+						"Lago Victoria"
+					]
+				},
+				{
+					"question": "¿Qué cadena montañosa es la más larga del mundo, extendiéndose a lo largo de América del Sur?",
+					"answers": [
+						"Los Andes",
+						"Las Montañas Rocosas",
+						"Los Alpes",
+						"El Himalaya"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es el elemento químico más abundante en la corteza terrestre?",
+					"answers": [
+						"Oxígeno",
+						"Hierro",
+						"Aluminio",
+						"Silicio"
+					]
+				},
+				{
+					"question": "¿Qué ley de la termodinámica establece que la entropía de un sistema cerrado siempre tiende a aumentar?",
+					"answers": [
+						"Segunda ley de la termodinámica",
+						"Primera ley de la termodinámica",
+						"Tercera ley de la termodinámica",
+						"Ley cero de la termodinámica"
+					]
+				},
+				{
+					"question": "¿Qué modelo atómico describe los electrones orbitando el núcleo en niveles de energía discretos?",
+					"answers": [
+						"Modelo de Bohr",
+						"Modelo de Rutherford",
+						"Modelo de Thompson",
+						"Modelo cuántico"
+					]
+				},
+				{
+					"question": "¿Qué fenómeno físico es responsable de que un imán pueda atraer objetos de hierro?",
+					"answers": [
+						"Magnetismo",
+						"Electricidad estática",
+						"Capilaridad",
+						"Resonancia"
+					]
+				},
+				{
+					"question": "¿Qué partícula subatómica es responsable de la interacción fuerte que mantiene unidos los protones en el núcleo?",
+					"answers": [
+						"Gluón",
+						"Bosón de Higgs",
+						"Neutrino",
+						"Fotón"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de los siguientes órganos es responsable de filtrar la sangre y eliminar desechos y toxinas del cuerpo?",
+					"answers": [
+						"Riñón",
+						"Páncreas",
+						"Pulmón",
+						"Hígado"
+					]
+				},
+				{
+					"question": "¿Qué hueso largo del cuerpo humano es el más largo y fuerte?",
+					"answers": [
+						"Fémur",
+						"Tibia",
+						"Húmero",
+						"Radio"
+					]
+				},
+				{
+					"question": "¿Qué estructura anatómica en el corazón humano se encarga de iniciar el impulso eléctrico que regula el ritmo cardíaco?",
+					"answers": [
+						"Nódulo sinoauricular (SA)",
+						"Nódulo auriculoventricular (AV)",
+						"Haz de His",
+						"Fibras de Purkinje"
+					]
+				},
+				{
+					"question": "¿Qué tipo de glóbulo blanco es el más abundante en la sangre y juega un papel clave en la respuesta inmune innata?",
+					"answers": [
+						"Neutrófilos",
+						"Linfocitos",
+						"Eosinófilos",
+						"Monocitos"
+					]
+				},
+				{
+					"question": "¿Qué parte del sistema nervioso controla las funciones involuntarias del cuerpo, como la frecuencia cardíaca y la digestión?",
+					"answers": [
+						"Sistema nervioso autónomo",
+						"Sistema nervioso somático",
+						"Sistema nervioso central",
+						"Sistema nervioso periférico"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué indicador económico mide la suma del valor de mercado de todos los bienes y servicios finales producidos en un país durante un período determinado?",
+					"answers": [
+						"Producto Interno Bruto (PIB)",
+						"Índice de Precios al Consumidor (IPC)",
+						"Ingreso Nacional Bruto (INB)",
+						"Producto Nacional Bruto (PNB)"
+					]
+				},
+				{
+					"question": "¿Qué modelo macroeconómico explica la relación entre inflación y desempleo a corto plazo, mostrando una curva inversa entre ambos factores?",
+					"answers": [
+						"Curva de Phillips",
+						"Curva de Laffer",
+						"Modelo IS-LM",
+						"Curva de Lorenz"
+					]
+				},
+				{
+					"question": "¿Qué concepto microeconómico describe la satisfacción adicional que un consumidor obtiene al consumir una unidad adicional de un bien o servicio?",
+					"answers": [
+						"Utilidad marginal",
+						"Utilidad total",
+						"Elasticidad de la demanda",
+						"Costo marginal"
+					]
+				},
+				{
+					"question": "¿Qué mercado financiero se caracteriza por la compra y venta de títulos de deuda a corto plazo, como los bonos del Tesoro?",
+					"answers": [
+						"Mercado monetario",
+						"Mercado de capitales",
+						"Mercado de futuros",
+						"Mercado de derivados"
+					]
+				},
+				{
+					"question": "¿Qué término describe una situación en la cual el gobierno gasta más de lo que recauda en ingresos fiscales en un período determinado?",
+					"answers": [
+						"Déficit fiscal",
+						"Superávit fiscal",
+						"Deuda pública",
+						"Balance presupuestario"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué significa la sigla \"CPU\" en términos de informática?",
+					"answers": [
+						"Central Processing Unit",
+						"Computer Processing Unit",
+						"Central Processor Unit",
+						"Computer Peripheral Unit"
+					]
+				},
+				{
+					"question": "¿Qué principio de diseño en desarrollo de software enfatiza la simplicidad, sugiriendo que los sistemas y el código deben mantenerse lo más sencillo posible para facilitar su mantenimiento y comprensión?",
+					"answers": [
+						"Principio KISS",
+						"Principio DRY",
+						"Principio SOLID",
+						"Principio YAGNI"
+					]
+				},
+				{
+					"question": "¿Qué estructura de datos se utiliza para implementar la técnica de backtracking, permitiendo deshacer decisiones previas y probar alternativas?",
+					"answers": [
+						"Pila (LIFO)",
+						"Cola (FIFO)",
+						"Lista enlazada",
+						"Árbol binario"
+					]
+				},
+				{
+					"question": "¿Qué algoritmo de ordenación tiene una complejidad temporal promedio de O(n log n) y es conocido por ser uno de los más eficientes en la práctica?",
+					"answers": [
+						"Quicksort",
+						"Bubblesort",
+						"Selection sort",
+						"Insertion sort"
+					]
+				},
+				{
+					"question": "¿Qué sistema operativo basado en UNIX es conocido por su uso en servidores web y supercomputadoras debido a su estabilidad y seguridad?",
+					"answers": [
+						"Linux",
+						"Windows Server",
+						"macOS",
+						"FreeBSD"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué propiedad aritmética establece que el orden en que se suman o multiplican dos números no afecta el resultado?",
+					"answers": [
+						"Propiedad conmutativa",
+						"Propiedad asociativa",
+						"Propiedad distributiva",
+						"Propiedad de identidad"
+					]
+				},
+				{
+					"question": "¿Qué concepto en álgebra describe una expresión matemática formada por la suma o resta de términos, cada uno de los cuales incluye una variable elevada a una potencia y un coeficiente?",
+					"answers": [
+						"Polinomio",
+						"Monomio",
+						"Binomio",
+						"Ecuación cuadrática"
+					]
+				},
+				{
+					"question": "¿Qué término geométrico describe un polígono de cuatro lados con dos pares de lados paralelos y de igual longitud?",
+					"answers": [
+						"Paralelogramo",
+						"Trapecio",
+						"Rectángulo",
+						"Romboide"
+					]
+				},
+				{
+					"question": "¿Qué principio fundamental del cálculo establece la relación entre la derivada de una función y su integral?",
+					"answers": [
+						"Teorema fundamental del cálculo",
+						"Teorema de Rolle",
+						"Teorema del valor medio",
+						"Teorema de la divergencia"
+					]
+				},
+				{
+					"question": "¿Qué es un número irracional?",
+					"answers": [
+						"Un número que no puede expresarse como una fracción exacta de dos enteros y tiene una expansión decimal no periódica",
+						"Un número que puede expresarse como una fracción exacta de dos enteros",
+						"Un número que es el resultado de elevar un entero a una potencia",
+						"Un número que es el opuesto aditivo de un número racional"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué tipo de cimiento se utiliza comúnmente para distribuir la carga de una estructura sobre un área mayor del suelo cuando el suelo tiene baja capacidad de carga?",
+					"answers": [
+						"Cimiento de zapata corrida",
+						"Cimiento de losa",
+						"Cimiento profundo",
+						"Cimiento de pilotes"
+					]
+				},
+				{
+					"question": "¿Qué material de construcción es conocido por su durabilidad, resistencia al fuego y se utiliza comúnmente para hacer bloques y muros?",
+					"answers": [
+						"Hormigón",
+						"Madera",
+						"Acero",
+						"Vidrio"
+					]
+				},
+				{
+					"question": "¿Qué herramienta se utiliza para asegurar que una superficie esté nivelada, generalmente mediante una burbuja de aire en un líquido contenido en un tubo?",
+					"answers": [
+						"Nivel de burbuja",
+						"Plomada",
+						"Cinta métrica",
+						"Escuadra"
+					]
+				},
+				{
+					"question": "¿Qué proceso en la construcción implica la colocación de ladrillos, bloques o piedras, unidos con mortero, para formar una estructura?",
+					"answers": [
+						"Mampostería",
+						"Encofrado",
+						"Revoque",
+						"Hormigonado"
+					]
+				},
+				{
+					"question": "¿Qué componente estructural se utiliza para soportar el peso de un edificio, transfiriendo la carga del techo y los pisos hacia los cimientos?",
+					"answers": [
+						"Pilar",
+						"Viga",
+						"Muro cortina",
+						"Cornisa"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué proceso histórico condujo a la transición de sociedades cazadoras-recolectoras a sociedades agrícolas asentadas?",
+					"answers": [
+						"Revolución Neolítica",
+						"Revolución Industrial",
+						"Renacimiento",
+						"Edad de Bronce"
+					]
+				},
+				{
+					"question": "¿Qué característica definió la economía de las ciudades-estado de la antigua Sumeria en Mesopotamia?",
+					"answers": [
+						"Agricultura irrigada y comercio de larga distancia",
+						"Ganadería nómada y comercio de esclavos",
+						"Caza y recolección intensiva",
+						"Manufactura a gran escala de textiles"
+					]
+				},
+				{
+					"question": "¿Qué factor principal contribuyó al colapso del Imperio Bizantino en 1453?",
+					"answers": [
+						"La conquista de Constantinopla por los otomanos",
+						"El saqueo de Constantinopla durante la Cuarta Cruzada",
+						"La peste negra que devastó Europa",
+						"El debilitamiento por las guerras con Persia"
+					]
+				},
+				{
+					"question": "¿Qué fue el Tratado de Tordesillas?",
+					"answers": [
+						"Un acuerdo entre España y Portugal que dividió las tierras descubiertas fuera de Europa entre ambos países",
+						"Un tratado que puso fin a la Guerra de los Cien Años entre Inglaterra y Francia",
+						"Un acuerdo que resolvió conflictos territoriales en el Sacro Imperio Romano Germánico",
+						"Un pacto comercial entre las repúblicas italianas durante el Renacimiento"
+					]
+				},
+				{
+					"question": "¿Qué fue el Feudalismo en la Europa medieval?",
+					"answers": [
+						"Un sistema social y económico basado en la posesión de tierras y la relación de vasallaje",
+						"Un sistema de gobierno centralizado donde el rey controlaba directamente todos los recursos",
+						"Un sistema legal que aplicaba el derecho romano en todas las regiones del continente",
+						"Una forma de organización militar que dependía de ejércitos permanentes pagados por impuestos"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es el verdadero nombre de Optimus Prime en transformers Prime?",
+					"answers": [
+					  "Orion Pax",
+					  "Megatronus",
+					  "Sentinel Prime",
+					  "Alpha Trion"
+					]
+				  },
+				  {
+					"question": "¿A qué año Marty McFly viaja al futuro en \"Volver al Futuro II\"?",
+					"answers": [
+					  "2015",
+					  "2025",
+					  "2030",
+					  "1995"
+					]
+				  },
+				  {
+					"question": "¿Cómo se llama la nave principal de la serie \"Robotech\"?",
+					"answers": [
+					  "SDF-1",
+					  "Atlantis",
+					  "Macross",
+					  "Excalibur"
+					]
+				  },
+				  {
+					"question": "¿Cuál es el nombre del líder de los Halcones Galácticos?",
+					"answers": [
+					  "El Capitán Telescopio",
+					  "Halcon Plateado",
+					  "Viento Plateado",
+					  "Relámpago"
+					]
+				  },
+				  {
+					"question": "¿Cómo se llama el/la protagonista de \"Monkey Island\"?",
+					"answers": [
+					  "Guybrush Threepwood",
+					  "LeChuck",
+					  "Elaine Marley",
+					  "Stan"
+					]
+				  }
+			]
+		],
+		[
+			[
+				{
+					"question": "¿En qué movimiento artístico se encuentra la pintura \"Los lirios acuáticos\"?",
+					"answers": [
+						"Impresionismo",
+						"Expresionismo",
+						"Romanticismo",
+						"Barroco"
+					]
+				},
+				{
+					"question": "¿Qué estilo de danza se caracteriza por movimientos expresivos y una narrativa dramática, a menudo ejecutada con música clásica?",
+					"answers": [
+						"Ballet",
+						"Flamenco",
+						"Tango",
+						"Jazz"
+					]
+				},
+				{
+					"question": "¿Quién es el autor del poema épico \"La Divina Comedia\"?",
+					"answers": [
+						"Dante Alighieri",
+						"John Milton",
+						"Homer",
+						"Geoffrey Chaucer"
+					]
+				},
+				{
+					"question": "¿Qué obra de arte, famosa por su uso del sfumato, se exhibe en el Museo del Louvre?",
+					"answers": [
+						"La Mona Lisa",
+						"La última cena",
+						"La Escuela de Atenas",
+						"La Venus de Urbino"
+					]
+				},
+				{
+					"question": "¿Qué concepto literario se refiere a un poema o canción que lamenta la muerte de alguien?",
+					"answers": [
+						"Elegía",
+						"Oda",
+						"Soneto",
+						"Limerick"
+					]
+				}
+			],
+			[
+				{
+					"question": "En el béisbol, ¿Cuántas entradas conforman un juego de Grandes Ligas?",
+					"answers": [
+						"9 entradas",
+						"10 entradas",
+						"7 entradas",
+						"8 entradas"
+					]
+				},
+				{
+					"question": "¿Quién ostenta el récord de más victorias en la historia de la Fórmula 1?",
+					"answers": [
+						"Lewis Hamilton",
+						"Michael Schumacher",
+						"Ayrton Senna",
+						"Sebastian Vettel"
+					]
+				},
+				{
+					"question": "¿Qué selección de fútbol ganó la primera Copa del Mundo en 1930?",
+					"answers": [
+						"Uruguay",
+						"Brasil",
+						"Argentina",
+						"Italia"
+					]
+				},
+				{
+					"question": "¿En qué deporte se utiliza el término \"Bulls-eye\" para describir una precisión perfecta?",
+					"answers": [
+						"Tiro con arco",
+						"Dardos",
+						"Tiro al blanco",
+						"Esgrima"
+					]
+				},
+				{
+					"question": "¿Qué nadador es el atleta olímpico más condecorado de todos los tiempos?",
+					"answers": [
+						"Michael Phelps",
+						"Mark Spitz",
+						"Ian Thorpe",
+						"Ryan Lochte"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es el concepto filosófico que se refiere a la búsqueda del conocimiento y la comprensión a través de la razón y la observación?",
+					"answers": [
+						"Racionalismo",
+						"Existencialismo",
+						"Empirismo",
+						"Escepticismo"
+					]
+				},
+				{
+					"question": "¿Qué significa \"ataraxia\" en la filosofía epicúrea?",
+					"answers": [
+						"Un estado de serenidad y ausencia de perturbación mental.",
+						"La búsqueda de placer a través de la satisfacción de los deseos.",
+						"La creencia en la reencarnación del alma.",
+						"La idea de que el conocimiento verdadero es imposible de alcanzar."
+					]
+				},
+				{
+					"question": "¿Qué idea central en la filosofía de Spinoza sostiene que Dios y la naturaleza son dos nombres para la misma realidad?",
+					"answers": [
+						"Panteísmo",
+						"Deísmo",
+						"Teísmo",
+						"Ateísmo"
+					]
+				},
+				{
+					"question": "¿Qué término utiliza Aristóteles para describir el \"fin último\" o propósito al que tienden todas las acciones humanas?",
+					"answers": [
+						"Telos",
+						"Ethos",
+						"Arete",
+						"Logos"
+					]
+				},
+				{
+					"question": "¿Qué filósofo es conocido por su paradoja de la flecha, que argumenta que el movimiento es imposible?",
+					"answers": [
+						"Zenón de Elea",
+						"Heráclito",
+						"Parménides",
+						"Empédocles"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es la cordillera más larga del mundo?",
+					"answers": [
+						"Andes",
+						"Himalaya",
+						"Montañas Rocosas",
+						"Alpes"
+					]
+				},
+				{
+					"question": "¿Qué país tiene la mayor cantidad de islas en el mundo?",
+					"answers": [
+						"Suecia",
+						"Noruega",
+						"Indonesia",
+						"Filipinas"
+					]
+				},
+				{
+					"question": "¿Cuál es el punto más bajo en la superficie terrestre, ubicado en Asia?",
+					"answers": [
+						"El Mar Muerto",
+						"El Valle de la Muerte",
+						"El Mar Caspio",
+						"El Valle del Rift"
+					]
+				},
+				{
+					"question": "¿En qué continente se encuentra el río Congo, uno de los más caudalosos del mundo?",
+					"answers": [
+						"África",
+						"América del Sur",
+						"Asia",
+						"Oceanía"
+					]
+				},
+				{
+					"question": "¿Qué océano es el más profundo del mundo, con la Fosa de las Marianas en su territorio?",
+					"answers": [
+						"Océano Pacífico",
+						"Océano Atlántico",
+						"Océano Índico",
+						"Océano Ártico"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es la unidad básica de la estructura de la materia y la más pequeña que conserva las propiedades químicas de un elemento?",
+					"answers": [
+						"Átomo",
+						"Molécula",
+						"Protón",
+						"Electrón"
+					]
+				},
+				{
+					"question": "¿Qué tipo de radiación electromagnética tiene la mayor longitud de onda?",
+					"answers": [
+						"Ondas de radio",
+						"Microondas",
+						"Infrarrojo",
+						"Rayos X"
+					]
+				},
+				{
+					"question": "¿Qué es el número de Avogadro?",
+					"answers": [
+						"El número de partículas en un mol de sustancia",
+						"La constante de equilibrio en reacciones químicas",
+						"El número de protones en un átomo",
+						"La cantidad de átomos en una molécula"
+					]
+				},
+				{
+					"question": "¿Qué propiedad de los metales les permite ser estirados en hilos finos sin romperse?",
+					"answers": [
+						"Ductilidad",
+						"Maleabilidad",
+						"Tenacidad",
+						"Dureza"
+					]
+				},
+				{
+					"question": "¿Qué fenómeno describe la atracción que una molécula de agua ejerce sobre otra molécula de agua?",
+					"answers": [
+						"Cohesión",
+						"Adhesión",
+						"Capilaridad",
+						"Tensión superficial"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de las siguientes partes del sistema nervioso es responsable de coordinar movimientos voluntarios, equilibrio y postura?",
+					"answers": [
+						"Cerebelo",
+						"Médula espinal",
+						"Lóbulo frontal",
+						"Hipotálamo"
+					]
+				},
+				{
+					"question": "¿Qué componente de la sangre es responsable del transporte de oxígeno desde los pulmones a los tejidos del cuerpo?",
+					"answers": [
+						"Hemoglobina",
+						"Glucosa",
+						"Albumina",
+						"Linfocitos"
+					]
+				},
+				{
+					"question": "¿Qué parte del sistema circulatorio se encarga de la filtración y eliminación de desechos metabólicos de la sangre?",
+					"answers": [
+						"Riñones",
+						"Hígado",
+						"Bazo",
+						"Pulmones"
+					]
+				},
+				{
+					"question": "¿Qué proteína plasmática, sintetizada en el hígado, juega un papel fundamental en la coagulación sanguínea?",
+					"answers": [
+						"Fibrinógeno",
+						"Albumina",
+						"Globulina",
+						"Protrombina"
+					]
+				},
+				{
+					"question": "¿Qué estructura anatómica del oído interno es responsable de la audición y el equilibrio?",
+					"answers": [
+						"Cóclea",
+						"Canales semicirculares",
+						"Tímpano",
+						"Estribo"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué fenómeno monetario es producido con la emisión descontrolada de dinero?",
+					"answers": [
+						"Inflación",
+						"Deflación",
+						"Déficit fiscal",
+						"Inseguridad Juridica"
+					]
+				},
+				{
+					"question": "¿Qué teoría económica sostiene que los mercados libres, sin intervención del gobierno, llevan al pleno empleo y a la asignación eficiente de los recursos?",
+					"answers": [
+						"Liberalismo económico",
+						"Keynesianismo",
+						"Marxismo",
+						"Mercantilismo"
+					]
+				},
+				{
+					"question": "¿Qué tipo de política económica se refiere a las acciones tomadas por un banco central para influir en la oferta monetaria y las tasas de interés?",
+					"answers": [
+						"Política monetaria",
+						"Política fiscal",
+						"Política cambiaria",
+						"Política comercial"
+					]
+				},
+				{
+					"question": "¿Qué tipo de mercado se caracteriza por la existencia de un único vendedor que controla la oferta y puede influir en el precio?",
+					"answers": [
+						"Monopolio",
+						"Oligopolio",
+						"Competencia perfecta",
+						"Monopsonio"
+					]
+				},
+				{
+					"question": "¿Qué medida monetaria se refiere al total de dinero en circulación, incluyendo efectivo, depósitos a la vista y algunos depósitos a plazo?",
+					"answers": [
+						"Oferta monetaria (M2)",
+						"Base monetaria (M0)",
+						"Circulante",
+						"M3"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué término es utilizado para describir un programa malicioso diseñado para secuestrar equipos informáticos y solicitar un rescate por ellos?",
+					"answers": [
+						"Ransomware",
+						"Botnets",
+						"Spyware",
+						"Gusanos"
+					]
+				},
+				{
+					"question": "¿Qué sistema de control de versiones distribuido es conocido por su capacidad para gestionar ramas y fusiones de manera eficiente, facilitando la colaboración en proyectos de software?",
+					"answers": [
+						"Git",
+						"Subversion (SVN)",
+						"Mercurial",
+						"Perforce"
+					]
+				},
+				{
+					"question": "¿Qué concepto en programación orientada a objetos permite que diferentes clases hereden atributos y métodos de una clase base común?",
+					"answers": [
+						"Herencia",
+						"Polimorfismo",
+						"Encapsulamiento",
+						"Abstracción"
+					]
+				},
+				{
+					"question": "¿Qué concepto en programación se refiere a una estructura que puede ser definida dentro de sí misma, permitiendo la repetición de operaciones sobre subconjuntos de datos similares?",
+					"answers": [
+						"Recursividad",
+						"Iteración",
+						"Bucle",
+						"Herencia"
+					]
+				},
+				{
+					"question": "¿Qué son GNOME y KDE en el contexto de los sistemas operativos?",
+					"answers": [
+						"Entornos de escritorio que proporcionan interfaces gráficas de usuario (GUI)",
+						"Distribuciones de Linux diseñadas para servidores de alto rendimiento",
+						"Sistemas de gestión de paquetes utilizados para instalar software en Linux",
+						"Sistemas de archivos utilizados por Linux para organizar y gestionar archivos en discos duros"
+					]
+				}
+				
+			],
+			[
+				{
+					"question": "¿Qué es un límite en el cálculo?",
+					"answers": [
+						"El valor al que se aproxima una función a medida que su variable independiente se acerca a un punto específico",
+						"El valor máximo de una función en un intervalo cerrado",
+						"La derivada de una función en un punto dado",
+						"El área bajo la curva de una función en un intervalo dado"
+					]
+				},
+				{
+					"question": "¿Qué propiedad algebraica permite distribuir un factor común entre los términos de una suma o resta?",
+					"answers": [
+						"Propiedad distributiva",
+						"Propiedad asociativa",
+						"Propiedad conmutativa",
+						"Propiedad de identidad"
+					]
+				},
+				{
+					"question": "¿Qué tipo de ángulo se forma cuando dos líneas se intersectan y los ángulos adyacentes son iguales?",
+					"answers": [
+						"Ángulo recto",
+						"Ángulo agudo",
+						"Ángulo obtuso",
+						"Ángulo llano"
+					]
+				},
+				{
+					"question": "¿Qué es un vector en geometría y álgebra lineal?",
+					"answers": [
+						"Una cantidad que tiene tanto magnitud como dirección",
+						"Una cantidad que solo tiene magnitud y no dirección",
+						"Un punto en el espacio definido por coordenadas",
+						"Una matriz de una sola columna"
+					]
+				},
+				{
+					"question": "¿Qué tipo de función es simétrica respecto al origen, es decir, cumple la condición f(-x) = -f(x)?",
+					"answers": [
+						"Función impar",
+						"Función par",
+						"Función periódica",
+						"Función continua"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué técnica se utiliza en la construcción para reforzar el concreto con barras de acero para mejorar su resistencia a la tracción?",
+					"answers": [
+						"Hormigón armado",
+						"Hormigón pretensado",
+						"Hormigón proyectado",
+						"Hormigón celular"
+					]
+				},
+				{
+					"question": "¿Qué es un encofrado en la construcción?",
+					"answers": [
+						"Un molde temporal utilizado para dar forma al hormigón mientras fragua",
+						"Un revestimiento decorativo para paredes interiores",
+						"Una herramienta para medir ángulos en la construcción",
+						"Un sistema de ventilación en edificios"
+					]
+				},
+				{
+					"question": "¿Qué dispositivo se utiliza para medir distancias en un sitio de construcción, a menudo con una rueda que gira al caminar?",
+					"answers": [
+						"Odómetro de rueda",
+						"Cinta métrica láser",
+						"Nivel láser",
+						"Teodolito"
+					]
+				},
+				{
+					"question": "¿Qué material de construcción se utiliza típicamente en techos para proporcionar impermeabilización y es conocido por su capacidad para ser enrollado y adherido?",
+					"answers": [
+						"Membrana asfáltica",
+						"Policarbonato",
+						"Panel de yeso",
+						"Fibra de vidrio"
+					]
+				},
+				{
+					"question": "¿Qué tipo de grúa se utiliza comúnmente en la construcción de edificios altos debido a su capacidad para elevarse a medida que crece la estructura?",
+					"answers": [
+						"Grúa torre",
+						"Grúa telescópica",
+						"Grúa de pluma",
+						"Grúa de celosía"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué fenómeno económico y social en el siglo XIX transformó radicalmente las ciudades europeas y norteamericanas?",
+					"answers": [
+						"Urbanización durante la Revolución Industrial",
+						"Colonización del Nuevo Mundo",
+						"Ilustración y Revolución Científica",
+						"Esclavitud y comercio triangular"
+					]
+				},
+				{
+					"question": "¿Qué función tenían las guildas en las ciudades medievales europeas?",
+					"answers": [
+						"Regulaban la práctica de oficios y el comercio, protegiendo a sus miembros y asegurando la calidad de los productos",
+						"Servían como unidades militares privadas al servicio de los señores feudales",
+						"Eran grupos religiosos que ofrecían educación y atención médica",
+						"Actuaban como agencias gubernamentales encargadas de la recaudación de impuestos"
+					]
+				},
+				{
+					"question": "¿Qué fue la Guerra de los Treinta Años y cuál fue su impacto principal en Europa?",
+					"answers": [
+						"Un conflicto religioso y político que devastó gran parte de Europa Central, resultando en la fragmentación del Sacro Imperio Romano Germánico",
+						"Una serie de guerras entre Francia y España que resultaron en la hegemonía francesa en Europa",
+						"Una revuelta campesina en Alemania que llevó a la reforma agraria",
+						"Un conflicto entre Inglaterra y Francia que dio lugar al dominio británico sobre gran parte de Europa"
+					]
+				},
+				{
+					"question": "¿Qué impacto tuvo la invención de la imprenta en el siglo XV en Europa?",
+					"answers": [
+						"Facilitó la difusión de ideas y el acceso al conocimiento, contribuyendo al Renacimiento y la Reforma",
+						"Reemplazó completamente las tradiciones orales en la transmisión de la historia",
+						"Llevó a una disminución en la producción artística debido a la competencia con los libros impresos",
+						"Causó un declive en la alfabetización debido a la sobreproducción de material impreso"
+					]
+				},
+				{
+					"question": "¿Qué sistema de gobierno se desarrolló en Atenas y se considera una de las primeras formas de gobierno participativo?",
+					"answers": [
+						"Democracia directa",
+						"República",
+						"Monarquía constitucional",
+						"Oligarquía"
+					]
+				}
+			],
+			[
+				{
+				  "question": "¿Cuál es la especialidad médica del Dr. Gregory House?",
+				  "answers": [
+					"Diagnóstico",
+					"Cardiología",
+					"Oncología",
+					"Neurología"
+				  ]
+				},
+				{
+				  "question": "¿Cuál es el trabajo de Lucifer Morningstar en la serie \"Lucifer\"?",
+				  "answers": [
+					"Dueño de un club nocturno",
+					"Detective privado",
+					"Músico",
+					"Abogado"
+				  ]
+				},
+				{
+				  "question": "¿Cómo se llama la ciudad donde vive Rayo McQueen en \"Cars\"?",
+				  "answers": [
+					"Radiador Springs",
+					"Thunder Hollow",
+					"Los Ángeles",
+					"Carburator County"
+				  ]
+				},
+				{
+				  "question": "¿Qué dispositivo permite a Ben 10 transformarse en alienígenas en la serie \"Ben 10\" original?",
+				  "answers": [
+					"Omnitrix",
+					"Ultimatrix",
+					"Unitrix",
+					"Xenomatrix"
+				  ]
+				},
+				{
+				  "question": "¿Cómo se llama el mejor amigo de Rex en \"Generador Rex\"?",
+				  "answers": [
+					"Bobo Haha",
+					"Noah Nixon",
+					"Six",
+					"Holiday"
+				  ]
+				}
+			]
+		],
+		[
+			[
+				{
+					"question": "¿Qué pintor francés es conocido por sus retratos impresionistas, incluyendo \"Mujer con sombrilla\"?",
+					"answers": [
+						"Claude Monet",
+						"Édouard Manet",
+						"Pierre-Auguste Renoir",
+						"Paul Cézanne"
+					]
+				},
+				{
+					"question": "¿Qué obra de Beethoven, compuesta entre 1804 y 1808, es conocida por su motivación inicial de \"Destino tocando la puerta\"?",
+					"answers": [
+						"Sinfonía No. 5",
+						"Sinfonía No. 9",
+						"Claro de luna",
+						"Oda a la alegría"
+					]
+				},
+				{
+					"question": "¿Qué tipo de pintura utiliza pigmentos suspendidos en agua, aplicada generalmente sobre papel húmedo?",
+					"answers": [
+						"Acuarela",
+						"Óleo",
+						"Tempera",
+						"Fresco"
+					]
+				},
+				{
+					"question": "¿Qué danza clásica de la India, originaria del estado de Tamil Nadu, es conocida por su compleja técnica y expresividad?",
+					"answers": [
+						"Bharatanatyam",
+						"Kathakali",
+						"Odissi",
+						"Kathak"
+					]
+				},
+				{
+					"question": "¿Qué figura literaria, utilizada por Shakespeare, consiste en un monólogo donde un personaje expresa sus pensamientos en voz alta?",
+					"answers": [
+						"Soliloquio",
+						"Aparte",
+						"Monólogo",
+						"Aliteración"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de los siguientes eventos deportivos se celebra cada cuatro años y reúne a atletas de todo el mundo, pero no forma parte de los Juegos Olímpicos?",
+					"answers": [
+						"Juegos de la Commonwealth",
+						"Campeonato Mundial de Atletismo",
+						"Copa Mundial de la FIFA",
+						"Juegos Panamericanos"
+					]
+				},
+				{
+					"question": "¿Qué ciclista ganó siete veces consecutivas el Tour de Francia antes de ser despojado de sus títulos?",
+					"answers": [
+						"Lance Armstrong",
+						"Miguel Indurain",
+						"Chris Froome",
+						"Bernard Hinault"
+					]
+				},
+				{
+					"question": "¿En qué deporte se utiliza el término \"hat-trick\" para referirse a la consecución de tres goles en un mismo partido?",
+					"answers": [
+						"Fútbol",
+						"Hockey sobre hielo",
+						"Rugby",
+						"Cricket"
+					]
+				},
+				{
+					"question": "¿Qué país ha ganado el mayor número de medallas de oro en la historia de los Juegos Olímpicos de Invierno?",
+					"answers": [
+						"Noruega",
+						"Estados Unidos",
+						"Alemania",
+						"Canadá"
+					]
+				},
+				{
+					"question": "¿Qué tenista femenina ha ganado el mayor número de títulos de Grand Slam en la historia?",
+					"answers": [
+						"Margaret Court",
+						"Serena Williams",
+						"Steffi Graf",
+						"Martina Navratilova"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Quién fue el filósofo griego conocido por ser el maestro de Platón y por su método de enseñanza basado en el diálogo y la mayéutica?",
+					"answers": [
+						"Sócrates",
+						"Aristóteles",
+						"Epicuro",
+						"Pitágoras"
+					]
+				},
+				{
+					"question": "¿En qué obra Immanuel Kant establece la distinción entre los conceptos de \"fenómeno\" y \"noúmeno\"?",
+					"answers": [
+						"Crítica de la razón pura",
+						"Fundamentación de la metafísica de las costumbres",
+						"Crítica del juicio",
+						"La paz perpetua"
+					]
+				},
+				{
+					"question": "¿Qué corriente filosófica sostiene que solo el conocimiento basado en la experiencia sensorial es válido?",
+					"answers": [
+						"Empirismo",
+						"Racionalismo",
+						"Idealismo",
+						"Existencialismo"
+					]
+				},
+				{
+					"question": "¿Qué corriente de pensamiento cree que la vida humana no tiene un propósito inherente y que cada individuo debe crear su propio significado?",
+					"answers": [
+						"Existencialismo",
+						"Nihilismo",
+						"Determinismo",
+						"Utilitarismo"
+					]
+				},
+				{
+					"question": "¿Qué significa el término \"hedonismo\" en filosofía?",
+					"answers": [
+						"La doctrina que sostiene que el placer es el bien supremo y el objetivo principal de la vida.",
+						"La creencia de que la vida debe ser vivida en virtud y moderación.",
+						"La teoría que postula que el deber y la moralidad son los principios más importantes.",
+						"La idea de que la felicidad se encuentra en la renuncia al deseo."
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es la montaña más alta del mundo?",
+					"answers": [
+						"Everest",
+						"Kilimanjaro",
+						"Aconcagua",
+						"Denali"
+					]
+				},
+				{
+					"question": "¿Qué ciudad es la capital más septentrional del mundo?",
+					"answers": [
+						"Reikiavik",
+						"Oslo",
+						"Helsinki",
+						"Moscú"
+					]
+				},
+				{
+					"question": "¿En qué país se encuentra el volcán activo más alto del mundo, el Ojos del Salado?",
+					"answers": [
+						"Chile",
+						"Argentina",
+						"Ecuador",
+						"México"
+					]
+				},
+				{
+					"question": "¿Qué país tiene la mayor población del mundo?",
+					"answers": [
+						"China",
+						"India",
+						"Estados Unidos",
+						"Indonesia"
+					]
+				},
+				{
+					"question": "¿Qué cordillera separa Europa de Asia?",
+					"answers": [
+						"Los Urales",
+						"El Cáucaso",
+						"Los Alpes",
+						"Los Cárpatos"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es la función principal de las mitocondrias en las células?",
+					"answers": [
+						"Producir energía",
+						"Realizar la fotosíntesis",
+						"Almacenar nutrientes",
+						"Almacenar agua"
+					]
+				},
+				{
+					"question": "¿Qué fenómeno físico explica por qué un objeto se hunde o flota en un fluido?",
+					"answers": [
+						"Principio de Arquímedes",
+						"Principio de Pascal",
+						"Ley de Boyle",
+						"Ley de Bernoulli"
+					]
+				},
+				{
+					"question": "¿Qué propiedad termodinámica de un gas ideal se mantiene constante en un proceso isocórico?",
+					"answers": [
+						"Volumen",
+						"Presión",
+						"Temperatura",
+						"Energía interna"
+					]
+				},
+				{
+					"question": "¿Qué principio de la física cuántica postula que no se puede conocer simultáneamente la posición y el momento exacto de una partícula?",
+					"answers": [
+						"Principio de incertidumbre de Heisenberg",
+						"Principio de exclusión de Pauli",
+						"Principio de superposición",
+						"Teorema de Bell"
+					]
+				},
+				{
+					"question": "¿Qué fenómeno describe la desviación de la luz al pasar por el borde de un obstáculo o a través de una rendija?",
+					"answers": [
+						"Difracción",
+						"Interferencia",
+						"Reflexión",
+						"Refracción"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué componente de la sangre es responsable de transportar oxígeno desde los pulmones hasta el resto del cuerpo?",
+					"answers": [
+						"Glóbulos rojos",
+						"Leucocitos",
+						"Plaquetas",
+						"Plasma"
+					]
+				},
+				{
+					"question": "¿Qué glándula produce la mayoría de las enzimas digestivas que se liberan en el duodeno?",
+					"answers": [
+						"Páncreas",
+						"Hígado",
+						"Glándulas salivales",
+						"Vesícula biliar"
+					]
+				},
+				{
+					"question": "¿Qué tipo de músculo es involuntario y se encuentra en las paredes de los órganos internos como el estómago y los intestinos?",
+					"answers": [
+						"Músculo liso",
+						"Músculo esquelético",
+						"Músculo cardíaco",
+						"Músculo estriado"
+					]
+				},
+				{
+					"question": "¿Qué estructura en el sistema digestivo es responsable de la absorción de nutrientes y se caracteriza por tener vellosidades en su superficie?",
+					"answers": [
+						"Intestino delgado",
+						"Intestino grueso",
+						"Estómago",
+						"Esófago"
+					]
+				},
+				{
+					"question": "¿Qué hormona, producida por el páncreas, es responsable de reducir los niveles de glucosa en la sangre?",
+					"answers": [
+						"Insulina",
+						"Glucagón",
+						"Cortisol",
+						"Adrenalina"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué término se utiliza para describir la medida de la capacidad de pago de un individuo, empresa o país, basado en sus activos y pasivos financieros?",
+					"answers": [
+						"Solvencia",
+						"Inflación",
+						"Recesión",
+						"Liquidez"
+					]
+				},
+				{
+					"question": "¿Qué término describe una situación en la que un pequeño número de empresas controla una gran parte del mercado?",
+					"answers": [
+						"Oligopolio",
+						"Monopolio",
+						"Competencia perfecta",
+						"Monopsonio"
+					]
+				},
+				{
+					"question": "¿Qué tipo de política económica se refiere al uso de impuestos y gasto público para influir en la economía?",
+					"answers": [
+						"Política fiscal",
+						"Política monetaria",
+						"Política cambiaria",
+						"Política comercial"
+					]
+				},
+				{
+					"question": "¿Qué concepto describe la situación en la que la cantidad demandada de un bien aumenta cuando su precio disminuye, ceteris paribus?",
+					"answers": [
+						"Ley de la demanda",
+						"Ley de la oferta",
+						"Equilibrio de mercado",
+						"Elasticidad precio de la demanda"
+					]
+				},
+				{
+					"question": "¿Qué teoría económica describe la acumulación de riqueza y capital por parte de un estado a través del comercio favorable, la explotación colonial y la regulación de la economía?",
+					"answers": [
+						"Mercantilismo",
+						"Capitalismo",
+						"Socialismo",
+						"Feudalismo"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de los siguientes dispositivos se utiliza para almacenar información de forma temporal en una computadora?",
+					"answers": [
+						"RAM",
+						"ROM",
+						"GPU",
+						"SATA"
+					]
+				},
+				{
+					"question": "¿Qué lenguaje de programación es conocido por su sintaxis simple y es ampliamente utilizado en el aprendizaje automático y análisis de datos?",
+					"answers": [
+						"Python",
+						"R",
+						"Java",
+						"MATLAB"
+					]
+				},
+				{
+					"question": "¿Qué concepto de programación orientada a objetos permite que diferentes clases definan métodos con el mismo nombre pero con implementaciones diferentes?",
+					"answers": [
+						"Polimorfismo",
+						"Encapsulamiento",
+						"Herencia",
+						"Sobrecarga de operadores"
+					]
+				},
+				{
+					"question": "¿Qué tipo de sistema de archivos es comúnmente utilizado en dispositivos con sistemas operativos Windows, caracterizado por su compatibilidad y manejo de permisos avanzados?",
+					"answers": [
+						"NTFS",
+						"FAT32",
+						"Ext4",
+						"APFS"
+					]
+				},
+				{
+					"question": "¿Qué herramienta de programación permite realizar depuración, gestión de versiones, y desarrollo de software en un entorno unificado?",
+					"answers": [
+						"IDE (Entorno de Desarrollo Integrado)",
+						"Editor de texto",
+						"CLI (Interfaz de Línea de Comandos)",
+						"Shell script"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué teorema en geometría establece que en un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los otros dos lados?",
+					"answers": [
+						"Teorema de Pitágoras",
+						"Teorema de Tales",
+						"Teorema de la altura",
+						"Teorema del cateto"
+					]
+				},
+				{
+					"question": "¿Qué tipo de número es un número entero que solo tiene dos divisores positivos distintos: 1 y el mismo número?",
+					"answers": [
+						"Número primo",
+						"Número compuesto",
+						"Número par",
+						"Número impar"
+					]
+				},
+				{
+					"question": "¿Qué propiedad de una función continua en un intervalo cerrado garantiza que alcanza tanto un máximo como un mínimo en ese intervalo?",
+					"answers": [
+						"Teorema de Weierstrass",
+						"Teorema del valor medio",
+						"Teorema de Bolzano",
+						"Teorema de Rolle"
+					]
+				},
+				{
+					"question": "¿Qué operación matemática en álgebra matricial se utiliza para encontrar el valor que se obtiene al multiplicar una matriz por su inversa?",
+					"answers": [
+						"Matriz identidad",
+						"Determinante",
+						"Transpuesta de la matriz",
+						"Rango de la matriz"
+					]
+				},
+				{
+					"question": "¿Qué es un número complejo?",
+					"answers": [
+						"Un número que tiene una parte real y una parte imaginaria",
+						"Un número que no puede expresarse como una fracción exacta",
+						"Un número que es el resultado de una raíz cuadrada negativa",
+						"Un número irracional con una expansión decimal infinita"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué herramienta manual se utiliza en construcción para aplicar y alisar el mortero en superficies como paredes y pisos?",
+					"answers": [
+						"Llana",
+						"Cincel",
+						"Martillo",
+						"Espátula"
+					]
+				},
+				{
+					"question": "¿Qué es un forjado en el contexto de la construcción?",
+					"answers": [
+						"Un elemento estructural horizontal que soporta las cargas de un piso o techo",
+						"Un proceso de endurecimiento de acero mediante calor",
+						"Una técnica de encofrado utilizada para hormigón",
+						"Un revestimiento aplicado a paredes exteriores"
+					]
+				},
+				{
+					"question": "¿Qué tipo de aislante térmico se utiliza comúnmente en la construcción para mejorar la eficiencia energética de un edificio?",
+					"answers": [
+						"Lana de vidrio",
+						"Yeso",
+						"Hormigón celular",
+						"Piedra pómez"
+					]
+				},
+				{
+					"question": "¿Qué herramienta se utiliza para cortar madera y otros materiales en un ángulo preciso, a menudo utilizada en la carpintería y construcción?",
+					"answers": [
+						"Ingletadora",
+						"Sierra de calar",
+						"Taladro de impacto",
+						"Sierra de cinta"
+					]
+				},
+				{
+					"question": "¿Qué es una zapata en términos de construcción de cimientos?",
+					"answers": [
+						"Una base de concreto sobre la cual se apoyan los pilares o muros de un edificio",
+						"Un revestimiento impermeable aplicado a los cimientos",
+						"Un sistema de drenaje para evitar la acumulación de agua en los cimientos",
+						"Un componente estructural que soporta el techo de una construcción"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué características definieron la economía del sistema de encomienda en América Latina durante la colonización española?",
+					"answers": [
+						"Explotación laboral de indígenas y producción agrícola a gran escala",
+						"Comercio de esclavos africanos y producción de metales preciosos",
+						"Industria textil y manufactura artesanal",
+						"Navegación y comercio marítimo con Asia"
+					]
+				},
+				{
+					"question": "¿Qué cambio significativo trajo la Revolución Agrícola en Gran Bretaña durante el siglo XVIII?",
+					"answers": [
+						"Aumentó la producción agrícola mediante innovaciones tecnológicas, lo que liberó mano de obra para la industria",
+						"Redistribuyó las tierras agrícolas entre los campesinos, eliminando el feudalismo",
+						"Promovió el monocultivo en lugar de la rotación de cultivos",
+						"Impulsó la colonización de nuevas tierras en América del Norte"
+					]
+				},
+				{
+					"question": "¿Qué fue la Liga de Delos en la antigua Grecia?",
+					"answers": [
+						"Una alianza de ciudades-estado griegas liderada por Atenas para defenderse de los persas",
+						"Un tratado de paz entre Esparta y Atenas al final de la Guerra del Peloponeso",
+						"Una liga comercial de ciudades griegas en el Mediterráneo",
+						"Una alianza militar entre las ciudades-estado de Grecia y Roma"
+					]
+				},
+				{
+					"question": "¿Qué motivó las Cruzadas que comenzaron en el siglo XI?",
+					"answers": [
+						"La recuperación de Tierra Santa de manos de los musulmanes y la protección de los peregrinos cristianos",
+						"La búsqueda de nuevas rutas comerciales hacia Asia",
+						"La expansión territorial de los estados europeos hacia África",
+						"La defensa de Europa contra las invasiones vikingas"
+					]
+				},
+				{
+					"question": "¿Qué evento marcó el comienzo de la Edad Media en Europa?",
+					"answers": [
+						"La caída del Imperio Romano de Occidente",
+						"El ascenso del Imperio Carolingio",
+						"La invasión de los mongoles en Europa",
+						"La firma de la Carta Magna"
+					]
+				}
+			],
+			[
+				{
+				  "question": "¿Cuál es la primera misión en \"Commandos: Behind Enemy Lines\"?",
+				  "answers": [
+					"Sabotear una base enemiga",
+					"Destruir un puente",
+					"Rescatar a un oficial aliado",
+					"Eliminar a un comandante enemigo"
+				  ]
+				},
+				{
+				  "question": "¿Cómo se llama el reino donde transcurre la serie \"My Little Pony\"?",
+				  "answers": [
+					"Equestria",
+					"Cloudsdale",
+					"Ponyville",
+					"Canterlot"
+				  ]
+				},
+				{
+				  "question": "¿Quién es el mentor de Mike Ross en \"SUITS\"?",
+				  "answers": [
+					"Harvey Specter",
+					"Louis Litt",
+					"Jessica Pearson",
+					"Trevor Evans"
+				  ]
+				},
+				{
+				  "question": "¿De que color era el leon que formaba la cabeza de Voltron?",
+				  "answers": [
+					"Negro",
+					"Rojo",
+					"Amarillo",
+					"Azul"
+				  ]
+				},
+				{
+					"question": "¿Qué fuente de energía impulsa a Mazinger Z?",
+					"answers": [
+						"Energía fotónica",
+						"Núcleo de antimateria",
+						"Reactor nuclear",
+						"Cristal de poder"
+					]
+				}
+			]
+		],
+		[
+			[
+				{
+					"question": "¿Qué término se usa en literatura para describir un poema narrativo extenso que detalla las hazañas de un héroe legendario o histórico?",
+					"answers": [
+						"Epopeya",
+						"Elegía",
+						"Oda",
+						"Égloga"
+					]
+				},
+				{
+					"question": "¿Qué artista del Renacimiento es conocido por su esculpido de \"La Piedad\" y la pintura del techo de la Capilla Sixtina?",
+					"answers": [
+						"Miguel Ángel",
+						"Leonardo da Vinci",
+						"Rafael Sanzio",
+						"Donatello"
+					]
+				},
+				{
+					"question": "¿Qué técnica de composición musical es conocida por la repetición continua de un motivo musical durante toda la pieza?",
+					"answers": [
+						"Ostinato",
+						"Fuga",
+						"Canon",
+						"Aria"
+					]
+				},
+				{
+					"question": "¿Qué poeta chileno ganó el Premio Nobel de Literatura en 1971?",
+					"answers": [
+						"Pablo Neruda",
+						"Gabriela Mistral",
+						"Octavio Paz",
+						"Jorge Luis Borges"
+					]
+				},
+				{
+					"question": "¿Qué obra musical de Tchaikovsky está basada en un cuento de hadas y es famosa por su danza \"El Vals de las Flores\"?",
+					"answers": [
+						"El Cascanueces",
+						"El Lago de los Cisnes",
+						"Romeo y Julieta",
+						"La Bella Durmiente"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿En qué año y en qué país se celebraron los primeros Juegos Olímpicos de la era moderna?",
+					"answers": [
+						"1896 en Grecia",
+						"1900 en Francia",
+						"1924 en Suiza",
+						"1888 en Reino Unido"
+					]
+				},
+				{
+					"question": "¿Qué técnica de esquí alpino, popularizada por el esquiador suizo Arnold Lunn, se refiere a la manera en que un esquiador hace giros cortos y rápidos?",
+					"answers": [
+						"Slalom",
+						"Super-G",
+						"Descenso",
+						"Gigante"
+					]
+				},
+				{
+					"question": "¿Qué jugador de golf es conocido por ganar 18 títulos de Major, el mayor número en la historia del deporte?",
+					"answers": [
+						"Jack Nicklaus",
+						"Tiger Woods",
+						"Arnold Palmer",
+						"Gary Player"
+					]
+				},
+				{
+					"question": "¿Quién fue el primer corredor en romper la barrera de los 10 segundos en los 100 metros planos?",
+					"answers": [
+						"Jim Hines",
+						"Carl Lewis",
+						"Usain Bolt",
+						"Maurice Greene"
+					]
+				},
+				{
+					"question": "¿Qué maratonista etíope rompió el récord mundial en Berlín en 2008, dejándolo en 2:03:59?",
+					"answers": [
+						"Haile Gebrselassie",
+						"Kenenisa Bekele",
+						"Eliud Kipchoge",
+						"Moses Kiptanui"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Quién fue el filósofo presocrático que propuso que el agua era el principio fundamental de todas las cosas y contribuyó a sentar las bases de la filosofía y la ciencia occidental?",
+					"answers": [
+						"Tales de Mileto",
+						"Parménides",
+						"Anaximandro",
+						"Empédocles"
+					]
+				},
+				{
+					"question": "¿Qué sostiene el \"dualismo\" cartesiano en la filosofía de René Descartes?",
+					"answers": [
+						"Que la mente y el cuerpo son dos sustancias distintas e independientes.",
+						"Que la realidad está compuesta únicamente por materia física.",
+						"Que el alma y el cuerpo están intrínsecamente unidos y no pueden separarse.",
+						"Que la percepción es la única fuente de conocimiento."
+					]
+				},
+				{
+					"question": "¿Qué corriente filosófica sostiene que los seres humanos están determinados por las estructuras económicas y sociales en las que viven?",
+					"answers": [
+						"Materialismo histórico",
+						"Idealismo alemán",
+						"Positivismo lógico",
+						"Existencialismo"
+					]
+				},
+				{
+					"question": "¿Qué significa el concepto de \"nihilismo\"?",
+					"answers": [
+						"La creencia de que no existen valores o significados objetivos en la vida.",
+						"La idea de que todos los seres humanos son inherentemente buenos.",
+						"La doctrina de que el conocimiento es posible únicamente a través de la razón.",
+						"La noción de que el universo sigue un propósito divino predeterminado."
+					]
+				},
+				{
+					"question": "¿Qué sostiene el \"determinismo\" en filosofía?",
+					"answers": [
+						"Que todas las acciones y eventos están causalmente determinados por eventos anteriores.",
+						"Que los seres humanos tienen libre albedrío absoluto.",
+						"Que la realidad es una ilusión creada por la mente.",
+						"Que las acciones humanas no tienen causas predecibles."
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál es el océano más profundo del mundo?",
+					"answers": [
+						"Pacífico",
+						"Atlántico",
+						"Índico",
+						"Ártico"
+					]
+				},
+				{
+					"question": "¿Qué mar, conocido por su alta salinidad, está ubicado entre Europa y Asia?",
+					"answers": [
+						"Mar Caspio",
+						"Mar Rojo",
+						"Mar Muerto",
+						"Mar Negro"
+					]
+				},
+				{
+					"question": "¿Qué país africano tiene la mayor cantidad de habitantes?",
+					"answers": [
+						"Nigeria",
+						"Etiopía",
+						"Egipto",
+						"Sudáfrica"
+					]
+				},
+				{
+					"question": "¿Qué estrecho separa España de Marruecos?",
+					"answers": [
+						"Estrecho de Gibraltar",
+						"Estrecho de Magallanes",
+						"Estrecho de Bering",
+						"Estrecho de Ormuz"
+					]
+				},
+				{
+					"question": "¿Cuál es la capital más alta del mundo, situada a más de 3.500 metros sobre el nivel del mar?",
+					"answers": [
+						"La Paz",
+						"Quito",
+						"Katmandú",
+						"Lhasa"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de las siguientes leyes establece que \"Un cuerpo tiende a permanecer en el estado de reposo a menos que una fuerza externa actúe sobre él\"?",
+					"answers": [
+						"Inercia",
+						"Conservación de Energía",
+						"Gravitación Universal",
+						"Acción y Reacción"
+					]
+				},
+				{
+					"question": "¿Qué propiedad física de la luz es responsable de la formación del arco iris?",
+					"answers": [
+						"Refracción",
+						"Reflexión",
+						"Disipación",
+						"Difracción"
+					]
+				},
+				{
+					"question": "¿Qué científico propuso la tabla periódica moderna organizada según el número atómico?",
+					"answers": [
+						"Dmitri Mendeléyev",
+						"Henry Moseley",
+						"John Dalton",
+						"Marie Curie"
+					]
+				},
+				{
+					"question": "¿Cuál es el elemento químico con mayor electronegatividad según la escala de Pauling?",
+					"answers": [
+						"Flúor",
+						"Oxígeno",
+						"Cloro",
+						"Nitrógeno"
+					]
+				},
+				{
+					"question": "¿Qué unidad se utiliza para medir la frecuencia en el sistema internacional de unidades?",
+					"answers": [
+						"Hertz",
+						"Julio",
+						"Newton",
+						"Watt"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de los siguientes huesos se encuentra entre cuello y el hombro?",
+					"answers": [
+						"Clavícula",
+						"Tibia",
+						"Fémur",
+						"Húmero"
+					]
+				},
+				{
+					"question": "¿Qué vena importante lleva la sangre desoxigenada desde la parte superior del cuerpo de regreso al corazón?",
+					"answers": [
+						"Vena cava superior",
+						"Vena cava posterior",
+						"Vena pulmonar",
+						"Vena porta hepática"
+					]
+				},
+				{
+					"question": "¿Qué parte del ojo es responsable de regular la cantidad de luz que entra al ojo mediante la contracción y dilatación?",
+					"answers": [
+						"Pupila",
+						"Iris",
+						"Córnea",
+						"Cristalino"
+					]
+				},
+				{
+					"question": "¿Qué órgano linfático se encarga de la destrucción de glóbulos rojos viejos y de la respuesta inmune?",
+					"answers": [
+						"Bazo",
+						"Timo",
+						"Médula ósea",
+						"Ganglios linfáticos"
+					]
+				},
+				{
+					"question": "¿Qué sustancia química liberada por las células del sistema inmune provoca vasodilatación y aumento de la permeabilidad capilar durante una reacción alérgica?",
+					"answers": [
+						"Histamina",
+						"Serotonina",
+						"Adrenalina",
+						"Cortisol"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué término se utiliza para describir la situación en la que un país exporta más bienes y servicios de los que importa?",
+					"answers": [
+						"Balanza comercial positiva",
+						"Balanza comercial negativa",
+						"Déficit fiscal nulo",
+						"Inflación"
+					]
+				},
+				{
+					"question": "¿Qué concepto se refiere al costo de oportunidad de una elección, representando el valor de la mejor alternativa no seleccionada?",
+					"answers": [
+						"Costo de oportunidad",
+						"Rendimiento marginal",
+						"Beneficio neto",
+						"Costo fijo"
+					]
+				},
+				{
+					"question": "¿Qué concepto se refiere a los costos que han sido incurridos en el pasado y no pueden recuperarse, y que no deben influir en las decisiones económicas futuras?",
+					"answers": [
+						"Costos hundidos",
+						"Costos variables",
+						"Costos marginales",
+						"Costos fijos"
+					]
+				},
+				{
+					"question": "¿Qué fenómeno describe la tendencia de los gobiernos a aumentar el gasto público durante las expansiones económicas y a reducirlo durante las recesiones, exacerbando los ciclos económicos?",
+					"answers": [
+						"Política fiscal procíclica",
+						"Política fiscal anticíclica",
+						"Estanflación",
+						"Efecto desplazamiento"
+					]
+				},
+				{
+					"question": "¿Qué concepto se refiere a la cantidad de dinero que un gobierno debe a prestamistas nacionales e internacionales?",
+					"answers": [
+						"Deuda pública",
+						"Déficit fiscal",
+						"Superávit fiscal",
+						"Déficit estructural"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de las siguientes opciones se utiliza comúnmente para representar la información en las computadoras?",
+					"answers": [
+						"Binario",
+						"Hexadecimal",
+						"ASCII",
+						"Unicode"
+					]
+				},
+				{
+					"question": "¿Qué protocolo de comunicación se utiliza principalmente para la transferencia segura de datos en redes, encriptando la comunicación?",
+					"answers": [
+						"SSH",
+						"HTTP",
+						"FTP",
+						"Telnet"
+					]
+				},
+				{
+					"question": "¿Qué estructura de datos jerárquica se utiliza comúnmente en la programación para representar relaciones de ancestro-descendiente?",
+					"answers": [
+						"Árbol binario",
+						"Pila",
+						"Cola",
+						"Lista enlazada"
+					]
+				},
+				{
+					"question": "¿Qué es un kernel en el contexto de los sistemas operativos?",
+					"answers": [
+						"El núcleo central del sistema operativo que gestiona las operaciones fundamentales del hardware",
+						"Una interfaz gráfica que permite a los usuarios interactuar con el sistema operativo",
+						"Un módulo de seguridad que protege el sistema operativo de amenazas externas",
+						"Un conjunto de herramientas de desarrollo utilizado para compilar aplicaciones"
+					]
+				},
+				{
+					"question": "¿Qué es la abstracción en el contexto de la programación?",
+					"answers": [
+						"Un concepto que se refiere a la simplificación de sistemas complejos al ocultar detalles innecesarios y exponer lo esencial",
+						"Una técnica que permite a los objetos heredar comportamientos de otras clases",
+						"Un proceso de iteración donde se repite un bloque de código hasta que se cumple una condición",
+						"Una estructura de datos que permite almacenar elementos en una secuencia lineal"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué tipo de transformación geométrica preserva la forma y el tamaño de una figura, pero puede cambiar su orientación?",
+					"answers": [
+						"Rotación",
+						"Traslación",
+						"Reflexión",
+						"Dilatación"
+					]
+				},
+				{
+					"question": "¿Qué es un gradiente en el contexto del cálculo vectorial?",
+					"answers": [
+						"Un vector que apunta en la dirección del máximo aumento de una función y cuya magnitud representa la tasa de cambio",
+						"Un escalar que representa la magnitud del cambio en una dirección dada",
+						"Una función que describe el cambio en la pendiente de una curva",
+						"Un número que indica el ángulo de inclinación de una línea recta"
+					]
+				},
+				{
+					"question": "¿Qué teorema en probabilidad establece que la suma de una gran cantidad de variables aleatorias independientes y distribuidas idénticamente tenderá a tener una distribución normal?",
+					"answers": [
+						"Teorema central del límite",
+						"Ley de los grandes números",
+						"Teorema de Bayes",
+						"Teorema de Chebyshev"
+					]
+				},
+				{
+					"question": "¿Qué concepto matemático describe la relación entre las longitudes de los lados de un triángulo y las razones trigonométricas de sus ángulos?",
+					"answers": [
+						"Trigonometría",
+						"Geometría analítica",
+						"Álgebra lineal",
+						"Geometría proyectiva"
+					]
+				},
+				{
+					"question": "¿Qué tipo de ecuación describe una relación entre las derivadas de una función y la propia función?",
+					"answers": [
+						"Ecuación diferencial",
+						"Ecuación cuadrática",
+						"Ecuación lineal",
+						"Ecuación paramétrica"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué elemento estructural se coloca en la parte superior de una ventana o puerta para soportar el peso de la estructura superior?",
+					"answers": [
+						"Dintel",
+						"Alféizar",
+						"Cornisa",
+						"Pilar"
+					]
+				},
+				{
+					"question": "¿Qué tipo de losa se utiliza en la construcción cuando se necesita reducir el peso propio, y está formada por un entramado de nervios y un relleno ligero?",
+					"answers": [
+						"Losa nervada",
+						"Losa maciza",
+						"Losa flotante",
+						"Losa alveolar"
+					]
+				},
+				{
+					"question": "¿Qué herramienta se utiliza en la construcción para verificar que las paredes estén perfectamente verticales?",
+					"answers": [
+						"Plomada",
+						"Nivel de burbuja",
+						"Teodolito",
+						"Escuadra"
+					]
+				},
+				{
+					"question": "¿Qué tipo de mortero es adecuado para utilizar en ambientes húmedos y en la construcción de muros de carga debido a su alta resistencia y durabilidad?",
+					"answers": [
+						"Mortero de cemento",
+						"Mortero de cal",
+						"Mortero de yeso",
+						"Mortero de barro"
+					]
+				},
+				{
+					"question": "¿Qué proceso en la construcción se refiere a la colocación de una capa de concreto en un terreno o estructura?",
+					"answers": [
+						"Hormigonado",
+						"Cimentación",
+						"Encofrado",
+						"Impermeabilización"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué importancia tuvo la Ruta de la Seda en la antigüedad?",
+					"answers": [
+						"Facilitó el intercambio de bienes, cultura e ideas entre Oriente y Occidente",
+						"Fue una vía utilizada exclusivamente para la expansión militar del Imperio Persa",
+						"Sirvió como una frontera natural que separaba China de sus enemigos",
+						"Permitió la propagación del Islam desde Arabia hasta Asia Central"
+					]
+				},
+				{
+					"question": "¿Qué impacto tuvo el sistema de castas en la estructura social de la India bajo el dominio británico?",
+					"answers": [
+						"Reforzó las divisiones sociales y limitó la movilidad social",
+						"Fue abolido por las reformas británicas en el siglo XIX",
+						"Unificó a las distintas etnias y religiones bajo un sistema común",
+						"Fue una creación de los británicos para facilitar el gobierno colonial"
+					]
+				},
+				{
+					"question": "¿Qué fue el 'Gran Salto Adelante' en la historia de China?",
+					"answers": [
+						"Una campaña de industrialización y colectivización agraria que resultó en una gran hambruna",
+						"Un programa de reformas políticas que abrió China al comercio internacional",
+						"Una revuelta contra el dominio japonés en Manchuria",
+						"Una campaña militar para expandir el territorio chino hacia el oeste"
+					]
+				},
+				{
+					"question": "¿Qué papel jugaron los gremios durante la Edad Media en Europa?",
+					"answers": [
+						"Regularon la producción, calidad y comercialización de productos artesanales",
+						"Organizaban las ferias comerciales en las grandes ciudades",
+						"Controlaban la educación de los nobles y el clero",
+						"Administraban la justicia en los asuntos rurales"
+					]
+				},
+				{
+					"question": "¿Qué sistema económico y social predominó en la Europa medieval, basado en la propiedad de la tierra y las relaciones de vasallaje?",
+					"answers": [
+						"Feudalismo",
+						"Mercantilismo",
+						"Capitalismo",
+						"Socialismo"
+					]
+				}
+			],
+			[
+				{
+				"question": "¿Con que elemento realiza el truco de magia el Joker en \"Batman: El Caballero de la Noche\"?",
+				"answers": [
+				  "Lapiz",
+				  "Cuerda",
+				  "Cuchillo",
+				  "Clip"
+				]
+			  },
+			  {
+				"question": "¿Cómo se llama el bisonte volador de Aang en \"Avatar: La Leyenda de Aang\"?",
+				"answers": [
+				  "Appa",
+				  "Momo",
+				  "Naga",
+				  "Oogi"
+				]
+			  },
+			  {
+				"question": "¿Qué canción toca Megamente para celebrar victoria sobre Metroman?",
+				"answers": [
+				  "Highway to Hell",
+				  "Back in Black",
+				  "We Will Rock You",
+				  "Eye of the Tiger"
+				]
+			  },
+			  {
+				"question": "¿Cómo se llama el padre de Will Turner en \"Piratas del Caribe\"?",
+				"answers": [
+				  "Bootstrap",
+				  "Davy Jones",
+				  "Barbossa",
+				  "Blackbeard"
+				]
+			  },
+			  {
+				"question": "¿Qué material se necesita para crear un portal al Nether en \"Minecraft\"?",
+				"answers": [
+				  "Obsidiana",
+				  "Piedra del End",
+				  "Diamante",
+				  "Hierro"
+				]
+			  }
+			]
+		],
+		[
+			[
+				{
+					"question": "¿Quién es el autor de la novela \"En busca del tiempo perdido\", una de las obras más influyentes de la literatura del siglo XX?",
+					"answers": [
+						"Marcel Proust",
+						"James Joyce",
+						"Virginia Woolf",
+						"Thomas Mann"
+					]
+				},
+				{
+					"question": "¿Qué método utiliza un escultor para modelar una figura tridimensional agregando material en lugar de quitarlo?",
+					"answers": [
+						"Modelado",
+						"Tallado directo",
+						"Ensamblaje",
+						"Cera perdida"
+					]
+				},
+				{
+					"question": "¿Qué término musical describe una composición en la que un solo instrumento realiza una obra, frecuentemente acompañado por una orquesta?",
+					"answers": [
+						"Concierto",
+						"Sonata",
+						"Sinfonía",
+						"Rapsodia"
+					]
+				},
+				{
+					"question": "¿Qué técnica pictórica se utiliza cuando los artistas aplican pintura con una espátula, creando una textura gruesa sobre el lienzo?",
+					"answers": [
+						"Impasto",
+						"Esfumado",
+						"Glaseado",
+						"Puntillismo"
+					]
+				},
+				{
+					"question": "¿Qué estilo de danza contemporánea es conocido por su énfasis en la improvisación y la liberación del cuerpo de las técnicas clásicas?",
+					"answers": [
+						"Danza moderna",
+						"Danza contemporánea",
+						"Hip-hop",
+						"Breakdance"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Quién es el máximo goleador en la historia de la Copa Mundial de la FIFA?",
+					"answers": [
+						"Miroslav Klose",
+						"Diego Maradona",
+						"Lionel Messi",
+						"Pelé"
+					]
+				},
+				{
+					"question": "¿Qué equipo ha ganado la mayor cantidad de títulos de la UEFA Champions League?",
+					"answers": [
+						"Real Madrid",
+						"AC Milan",
+						"FC Barcelona",
+						"Liverpool FC"
+					]
+				},
+				{
+					"question": "¿Qué gimnasta es conocida por haber realizado el primer \"triple-doble\" en competencia, una hazaña nunca antes vista en gimnasia artística?",
+					"answers": [
+						"Simone Biles",
+						"Nadia Comăneci",
+						"Shannon Miller",
+						"Aly Raisman"
+					]
+				},
+				{
+					"question": "¿Qué jugador de baloncesto es conocido como \"His Airness\" y es considerado por muchos como el mejor de todos los tiempos?",
+					"answers": [
+						"Michael Jordan",
+						"LeBron James",
+						"Kobe Bryant",
+						"Magic Johnson"
+					]
+				},
+				{
+					"question": "¿Qué técnica de natación fue desarrollada por Johnny Weissmuller y es ahora la más rápida en competencias?",
+					"answers": [
+						"Crol",
+						"Mariposa",
+						"Braza",
+						"Espalda"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué filósofo griego es conocido por su método de diálogo y por ser el maestro de Aristóteles?",
+					"answers": [
+						"Platón",
+						"Sócrates",
+						"Epicuro",
+						"Pitágoras"
+					]
+				},
+				{
+					"question": "¿Qué filósofo griego es conocido por su teoría de las Ideas o Formas, expuesta en diálogos como \"La República\"?",
+					"answers": [
+						"Platón",
+						"Aristóteles",
+						"Sócrates",
+						"Parménides"
+					]
+				},
+				{
+					"question": "¿Qué filósofo es considerado el fundador del existencialismo, conocido por su frase \"La existencia precede a la esencia\"?",
+					"answers": [
+						"Jean-Paul Sartre",
+						"Martin Heidegger",
+						"Albert Camus",
+						"Friedrich Nietzsche"
+					]
+				},
+				{
+					"question": "¿Qué corriente filosófica, representada por Descartes, sostiene que la razón es la principal fuente del conocimiento?",
+					"answers": [
+						"Racionalismo",
+						"Empirismo",
+						"Idealismo",
+						"Escepticismo"
+					]
+				},
+				{
+					"question": "¿Qué obra de Friedrich Nietzsche introduce el concepto del \"superhombre\" y critica la moral tradicional?",
+					"answers": [
+						"Así habló Zaratustra",
+						"El anticristo",
+						"Más allá del bien y del mal",
+						"La genealogía de la moral"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de estos países tiene 3 capitales?",
+					"answers": [
+						"Sudáfrica",
+						"Perú",
+						"Malasia",
+						"Bolivia"
+					]
+				},
+				{
+					"question": "¿Qué país sudamericano es el único que tiene costas en el océano Atlántico y en el océano Pacífico?",
+					"answers": [
+						"Colombia",
+						"Brasil",
+						"Argentina",
+						"Chile"
+					]
+				},
+				{
+					"question": "¿En qué océano se encuentran las islas Malvinas, un territorio disputado entre Argentina y el Reino Unido?",
+					"answers": [
+						"Océano Atlántico",
+						"Océano Pacífico",
+						"Océano Índico",
+						"Océano Ártico"
+					]
+				},
+				{
+					"question": "¿Qué río europeo es el más largo, atravesando países como Rusia y Kazajistán?",
+					"answers": [
+						"Río Volga",
+						"Río Danubio",
+						"Río Rin",
+						"Río Elba"
+					]
+				},
+				{
+					"question": "¿Qué país de Asia Central no tiene salida al mar y es el más grande en esta condición?",
+					"answers": [
+						"Kazajistán",
+						"Uzbekistán",
+						"Turkmenistán",
+						"Kirguistán"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de las siguientes unidades se utiliza para medir la fuerza en el sistema internacional?",
+					"answers": [
+						"Newton",
+						"Julio",
+						"Vatio",
+						"Pascal"
+					]
+				},
+				{
+					"question": "¿Qué fenómeno termodinámico describe el movimiento espontáneo de partículas desde una región de alta concentración a una de baja concentración?",
+					"answers": [
+						"Difusión",
+						"Ósmosis",
+						"Conducción",
+						"Convección"
+					]
+				},
+				{
+					"question": "¿Qué tipo de movimiento describe la variación periódica de la posición de un cuerpo con respecto a un punto de equilibrio?",
+					"answers": [
+						"Movimiento armónico simple",
+						"Movimiento parabólico",
+						"Movimiento rectilíneo uniforme",
+						"Movimiento circular uniforme"
+					]
+				},
+				{
+					"question": "¿Qué ley de la física define la relación entre el cambio de presión y el cambio de volumen para un gas a temperatura constante?",
+					"answers": [
+						"Ley de Boyle",
+						"Ley de Charles",
+						"Ley de Gay-Lussac",
+						"Ley de Avogadro"
+					]
+				},
+				{
+					"question": "¿Qué fenómeno describe la emisión de electrones por un material al ser iluminado con luz de cierta frecuencia?",
+					"answers": [
+						"Efecto fotoeléctrico",
+						"Fluorescencia",
+						"Emisión térmica",
+						"Efecto Compton"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de los siguientes componentes sanguíneos es esencial para la coagulación?",
+					"answers": [
+						"Plaquetas",
+						"Hemoglobina",
+						"Leucocitos",
+						"Glóbulos rojos"
+					]
+				},
+				{
+					"question": "¿Qué componente del sistema nervioso central está encargado de la regulación de la temperatura corporal y el equilibrio hídrico?",
+					"answers": [
+						"Hipotálamo",
+						"Hipófisis",
+						"Tálamo",
+						"Corteza cerebral"
+					]
+				},
+				{
+					"question": "¿Qué tipo de tejido conecta los músculos a los huesos, permitiendo el movimiento articular?",
+					"answers": [
+						"Tendones",
+						"Ligamentos",
+						"Cartílago",
+						"Fascia"
+					]
+				},
+				{
+					"question": "¿Qué tipo de articulación permite el movimiento en múltiples ejes, como la que se encuentra en el hombro y la cadera?",
+					"answers": [
+						"Articulación esferoidea (enartrosis)",
+						"Articulación bisagra (troclear)",
+						"Articulación pivote (trocoide)",
+						"Articulación deslizante (artrodia)"
+					]
+				},
+				{
+					"question": "¿Qué componente del sistema inmunológico está involucrado en la producción de anticuerpos?",
+					"answers": [
+						"Linfocitos B",
+						"Linfocitos T",
+						"Macrófagos",
+						"Células dendríticas"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Cuál de las siguientes situaciones describe mejor el término \"Monopolio\"?",
+					"answers": [
+						"Un mercado en el que un solo vendedor controla la oferta de un bien o servicio",
+						"Un mercado en el que hay muchos compradores y vendedores",
+						"Un aumento generalizado en los precios de bienes y servicios",
+						"La cantidad total de bienes y servicios"
+					]
+				},
+				{
+					"question": "¿Qué curva ilustra la relación entre los ingresos fiscales de un gobierno y los tipos impositivos, sugiriendo que hay un punto óptimo que maximiza los ingresos fiscales?",
+					"answers": [
+						"Curva de Laffer",
+						"Curva de Phillips",
+						"Curva de Kuznets",
+						"Curva de Lorenz"
+					]
+				},
+				{
+					"question": "¿Qué fenómeno económico ocurre cuando la cantidad demandada de un bien excede la cantidad ofrecida a un precio dado?",
+					"answers": [
+						"Escasez",
+						"Excedente",
+						"Equilibrio de mercado",
+						"Demanda elástica"
+					]
+				},
+				{
+					"question": "¿Qué concepto en economía describe un sistema en el que los precios de los bienes y servicios están determinados por el mercado y no por el gobierno?",
+					"answers": [
+						"Economía de mercado",
+						"Economía planificada",
+						"Economía mixta",
+						"Economía de trueque"
+					]
+				},
+				{
+					"question": "¿Qué tipo de bienes tienen una demanda que aumenta cuando aumenta el ingreso del consumidor, como los artículos de lujo?",
+					"answers": [
+						"Bienes normales",
+						"Bienes inferiores",
+						"Bienes Giffen",
+						"Bienes complementarios"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué significa la extención de archivo \"PDF\"?",
+					"answers": [
+						"Portable Document Format",
+						"Personal Data File",
+						"Program Design Framework",
+						"Printed Data File"
+					]
+				},
+				{
+					"question": "¿Qué es un compilador en el contexto del desarrollo de software?",
+					"answers": [
+						"Un programa que traduce código fuente a código máquina ejecutable",
+						"Un entorno de desarrollo integrado (IDE) para escribir y depurar código",
+						"Un sistema de control de versiones para gestionar el código fuente",
+						"Un conjunto de herramientas para la creación de interfaces de usuario"
+					]
+				},
+				{
+					"question": "¿Qué lenguaje de programación es ampliamente utilizado en el desarrollo de aplicaciones móviles para dispositivos Android?",
+					"answers": [
+						"Kotlin",
+						"Swift",
+						"Objective-C",
+						"JavaScript"
+					]
+				},
+				{
+					"question": "¿Qué concepto de programación describe la agrupación de datos y funciones que operan sobre esos datos en una sola unidad, ocultando los detalles de implementación?",
+					"answers": [
+						"Encapsulamiento",
+						"Herencia",
+						"Polimorfismo",
+						"Abstracción"
+					]
+				},
+				{
+					"question": "¿Qué principio de programación sugiere que el código duplicado debe evitarse mediante la reutilización de funciones o módulos?",
+					"answers": [
+						"Principio DRY",
+						"Principio KISS",
+						"Principio SOLID",
+						"Principio YAGNI"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué propiedad geométrica describe la distancia desde el centro de un círculo hasta cualquier punto en su circunferencia?",
+					"answers": [
+						"Radio",
+						"Diámetro",
+						"Cuerda",
+						"Tangente"
+					]
+				},
+				{
+					"question": "¿Qué tipo de matriz en álgebra lineal tiene el mismo número de filas y columnas, y sus elementos fuera de la diagonal principal son todos ceros?",
+					"answers": [
+						"Matriz diagonal",
+						"Matriz identidad",
+						"Matriz simétrica",
+						"Matriz nula"
+					]
+				},
+				{
+					"question": "¿Qué concepto en teoría de conjuntos describe la colección de todos los subconjuntos posibles de un conjunto dado?",
+					"answers": [
+						"Conjunto potencia",
+						"Conjunto universal",
+						"Intersección de conjuntos",
+						"Unión de conjuntos"
+					]
+				},
+				{
+					"question": "¿Qué tipo de secuencia tiene una diferencia constante entre términos consecutivos?",
+					"answers": [
+						"Progresión aritmética",
+						"Progresión geométrica",
+						"Secuencia armónica",
+						"Secuencia de Fibonacci"
+					]
+				},
+				{
+					"question": "¿Qué tipo de función tiene una pendiente constante y su gráfica es una línea recta?",
+					"answers": [
+						"Función lineal",
+						"Función cuadrática",
+						"Función exponencial",
+						"Función logarítmica"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué herramienta se utiliza para marcar líneas rectas largas en una superficie, generalmente mediante una cuerda impregnada con tiza?",
+					"answers": [
+						"Cordel de tiza",
+						"Cinta métrica",
+						"Nivel láser",
+						"Regla"
+					]
+				},
+				{
+					"question": "¿Qué tipo de máquina se utiliza en construcción para mezclar cemento, arena, grava y agua para formar hormigón?",
+					"answers": [
+						"Hormigonera",
+						"Excavadora",
+						"Grúa móvil",
+						"Compactadora"
+					]
+				},
+				{
+					"question": "¿Qué material se utiliza en construcción como acabado final en paredes y techos interiores para obtener una superficie lisa y uniforme?",
+					"answers": [
+						"Yeso",
+						"Madera contrachapada",
+						"Ladrillo visto",
+						"Mortero"
+					]
+				},
+				{
+					"question": "¿Qué es un armadura en la construcción?",
+					"answers": [
+						"Un conjunto de barras de acero que se utiliza para reforzar el hormigón",
+						"Un revestimiento metálico aplicado a las paredes exteriores",
+						"Un sistema de soporte temporal durante la construcción de un arco",
+						"Un tipo de aislamiento acústico utilizado en techos"
+					]
+				},
+				{
+					"question": "¿Qué elemento se coloca en los cimientos para evitar que el agua subterránea suba por capilaridad en las paredes?",
+					"answers": [
+						"Capa impermeable",
+						"Malla de acero",
+						"Zapata corrida",
+						"Encofrado"
+					]
+				}
+			],
+			[
+				{
+					"question": "¿Qué consecuencia tuvo la expansión del Imperio Otomano en el comercio entre Europa y Asia?",
+					"answers": [
+						"Obstaculizó las rutas comerciales terrestres, lo que incentivó la búsqueda de rutas marítimas alternativas",
+						"Abrió nuevas rutas comerciales directas entre Europa y Asia Central",
+						"Facilitó el comercio de esclavos entre África y Asia",
+						"Estableció monopolios comerciales que excluyeron a los comerciantes europeos"
+					]
+				},
+				{
+					"question": "¿Qué transformaciones trajo consigo la Reforma Protestante en Europa?",
+					"answers": [
+						"La fragmentación de la cristiandad occidental y el surgimiento de nuevas denominaciones cristianas",
+						"La unificación de la Iglesia bajo un único líder espiritual en Roma",
+						"La eliminación del sistema feudal y el establecimiento de monarquías absolutas",
+						"El fin del sistema de gremios y el surgimiento del capitalismo industrial"
+					]
+				},
+				{
+					"question": "¿Qué efecto tuvo la Peste Negra en la sociedad europea del siglo XIV?",
+					"answers": [
+						"Provocó un colapso demográfico, lo que condujo a cambios económicos y sociales significativos",
+						"Llevó a un aumento de la población urbana debido a la migración del campo a la ciudad",
+						"Fortaleció la autoridad de la Iglesia Católica y la fe religiosa en toda Europa",
+						"Impulsó la creación de universidades para combatir la ignorancia y la superstición"
+					]
+				},
+				{
+					"question": "¿Qué evento provocó la caída del Imperio Azteca en el siglo XVI?",
+					"answers": [
+						"La conquista española liderada por Hernán Cortés",
+						"La invasión de los mayas desde el sur",
+						"La guerra civil entre las ciudades-estado aztecas",
+						"La alianza con los pueblos vecinos contra el imperio"
+					]
+				},
+				{
+					"question": "¿Qué importancia tuvo la Declaración de los Derechos del Hombre y del Ciudadano durante la Revolución Francesa?",
+					"answers": [
+						"Estableció los principios fundamentales de igualdad y libertad que influenciaron las constituciones modernas",
+						"Sirvió como una declaración de guerra contra las monarquías absolutas de Europa",
+						"Proclamó la independencia de Francia de la influencia papal",
+						"Estableció el sistema feudal como base de la economía revolucionaria"
+					]
+				}
+			],
+			[
+				{
+				  "question": "¿Cuál es el rasgo característico de Takagi en \"Karakai Jouzu no Takagi-san\"?",
+				  "answers": [
+					"Burlarse de Nishikata",
+					"Ser extremadamente tímida",
+					"Ser una experta en deportes",
+					"Tener una hermana gemela"
+				  ]
+				},
+				{
+				  "question": "¿Qué técnica desarrolló Naruto para amplificar su Rasengan?",
+				  "answers": [
+					"Rasenshuriken",
+					"Chidori",
+					"Amaterasu",
+					"Susanoo"
+				  ]
+				},
+				{
+				  "question": "¿Cuál es la primera transformación de Goku en \"Dragon Ball Z\"?",
+				  "answers": [
+					"Super Saiyan",
+					"Kaioken",
+					"Ultra Instinct",
+					"Super Saiyan God"
+				  ]
+				},
+				{
+				  "question": "¿Cuál es el objetivo principal de Baki en su entrenamiento?",
+				  "answers": [
+					"Superar a su padre Yujiro Hanma",
+					"Convertirse en campeón de artes marciales",
+					"Vengarse de su maestro",
+					"Derrotar a todos los criminales"
+				  ]
+				},
+				{
+				  "question": "¿Cómo se llama la primera chica que Kazuya alquila en \"Rent a Girlfriend\"?",
+				  "answers": [
+					"Chizuru Mizuhara",
+					"Ruka Sarashina",
+					"Mami Nanami",
+					"Sumi Sakurasawa"
+				  ]
+				}
+			]
+		]
+	],
+	"notes": {
+		"lose": [
+			"¡No te preocupes, lo importante es que diste tu mejor esfuerzo! La próxima vez lo lograrás. Cada intento te acerca más a la victoria. ¡Sigue adelante y no te rindas!",
+			"¡Gran trabajo, estuviste muy cerca! Recuerda que cada paso que das, aunque pequeño, te lleva más lejos. Lo importante es no rendirse. ¡Tienes la habilidad, solo necesitas un poco más de práctica!",
+			"¡Lo hiciste genial! Este nivel es un verdadero desafío, pero recuerda que los grandes logros vienen después de superar grandes obstáculos. Sigue intentándolo, no te rindas, porque la victoria está a la vuelta de la esquina.",
+			"¡Increíble esfuerzo! Este nivel está diseñado para poner a prueba a los mejores. Cada derrota es una lección, y cada lección te acerca más a la victoria. No te desanimes, lo importante es no rendirse. ¡Estás a un paso de superar este reto!",
+			"¡Qué partida más intensa! Pocos se atreven a enfrentar este nivel, y tú lo hiciste con valentía. No importa cuántas veces caigas, lo que cuenta es que te levantes y sigas luchando. ¡La persistencia es la clave del éxito, sigue adelante!"
+		],
+		"win": [
+			"¡Felicidades! Has superado este desafío con facilidad, demostrando que tienes todo lo necesario para alcanzar la victoria. ¡Sigue así, y cada nuevo reto será otro triunfo más en tu camino!",
+			"¡Excelente trabajo! Has demostrado tus habilidades al superar este nivel, no todos pueden decir lo mismo. Cada victoria es una muestra de tu crecimiento. ¡Sigue adelante, estás en el camino correcto!",
+			"¡Impresionante! Has logrado vencer un desafío complicado, y eso habla de tu determinación y habilidad. No es fácil, pero lo hiciste parecer sencillo. ¡Celebra este logro, porque te lo has ganado con creces!",
+			"¡Increíble! Superar este nivel es un verdadero logro. No todos tienen la fuerza para hacerlo, pero tú lo conseguiste. Este es un triunfo que merece ser celebrado. ¡Tu perseverancia y talento te han llevado a lo más alto!",
+			"¡Épico! Vencer este desafío es algo que pocos pueden decir que han hecho. Has demostrado ser un verdadero maestro, capaz de superar cualquier obstáculo. ¡Este es un logro monumental, y deberías sentirte muy orgulloso! ¡Continúa así, porque no hay límite para lo que puedes alcanzar!"
+		],
+		"help": [
+			"Puntos:\n Obtenidos durante cada Juego al respodner correctamente a una Pregunta, determinan la posicion dentro del Ranking al finalizar el Juego, cada incrementeo sera igual al nivel de Dificultad, por ejemplo; 1 en Inculto, 3 en Sagaz, 5 en Erudito.",
+			"Racha:\n Incrementa con cada Pregunta respondida correctamente, pero es reiniciada a 0 en caso contrario. Al alcanzar un multiplo de 5, se incrementa una Vida.",
+			"Vida:\n Al iniciar el juego son 3, pero su maximo son 8, al responder incorrectamente una Pregunta se decrementa una Vida, al llegar a 0 se pierde el Juego.",
+			"Preguntas:\n Siendo en total 300, estas se encuentran dividas en 12 Temas y 5 Dificultades, cada una cuenta con 4 posibles respuestas, de las cuales solo una es correcta. Dentro del Juego estas son seleccionadas aleatoriamente segun las probabilidades de cada Personaje.",
+			"Temas:\n Siendo un total de 12, por cada uno de ellos hay un total de 25 Preguntas, divididas en 5 Dificultades",
+			"Dificultades:\n Son un total de 5. Siendo elegidas al iniciar un Juego, determinan la complejidad de las Preguntas y ademas los Puntos obtenidos al responderlas correctamente.",
+			"Personajes:\n Se trata de perfiles elegidos al iniciar cada Juego, cada uno de ellos pertenece a un Tema en especifico. Estos poseen un probabilides para las pregutnas de cada Tema. Habiendo hasta 5 por Tema, cada uno representa a un personaje influyente dentro de este, por lo que su mayor probabilidad sera de este mismo.",
+			"Ranking:\n En el se almacenan hasta un maximo de 12 Juegos, ganados o perdidos, ordenados de mayor a menor puntuación.",
+			"Juego:\n Se trata de una partida en la que son utilizados un Personaje y una Dificultad, estos pueden ganarse o perderse. En el se respnderan todas las Preguntas de todos los Temas de la Dificultad deseada, y estas seran seleccionadas aleatoriamente segun las probabilidades del Personaje.",
+			"Fondos:\n Son un total de 12, uno por cada Tema. Estos seran desbloqueados al completar todas las Preguntas correctamente de un Tema en la dificultad Erudito.",
+			"Estrategias:\n Los Personajes permiten aumentar las probabilidades de encontrar Preguntas de un Tema con el que se este mas familiarizado, dem odo que esto evite perde Vidas al inicio del Juego, y que por el contrario se incremente la racha"
+		],
+		"credit": "Este juego ha sido realizado pura y exclusivamente por : Gloacking."
+	}
+}
